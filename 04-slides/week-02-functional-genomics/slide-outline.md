@@ -6,7 +6,8 @@
 - Lecture set: three lectures, 12 slides each
 - Source lecture plan: `03-lecture-plans/week-02-functional-genomics/lecture-plan.md`
 - Validation status: first-pass source validation complete; S008 partial/date wording nuance
-- Production status: slide-ready outline; assets still need generation
+- Production status: slide-ready outline; original assets and publication-figure placeholders still need generation/review
+- Figure policy: public GitHub stores original schematics and placeholders only; human reviewers may insert original publication figures later when license/fair-use context is appropriate
 
 ## Lecture 1 — Background & Problem Definition
 
@@ -54,15 +55,15 @@
 |---|---|---|---|---|---|
 | L3-01 | Title: From regulatory calls to cancer biology | Validated regulatory calls can explain tumor states and oncogene regulation that mutation lists miss. | Title card / cancer regulatory map | S011-S019 | slide-ready |
 | L3-02 | Public regulatory resources | ENCODE/SCREEN and Cistrome turn many experiments into reusable regulatory priors. | W02-A011 resource map | S008, S009 | slide-ready |
-| L3-03 | Pan-cancer ATAC as discovery engine | TCGA ATAC shows how accessibility maps reveal subtype programs, regulatory elements, and noncoding hypotheses in primary tumors. | W02-A012 TCGA ATAC schematic | S011 | slide-ready |
-| L3-04 | Case study: AR cistrome rewiring | The same transcription factor can bind a different regulatory landscape during tumorigenesis. | AR cistrome rewiring concept | S016 | slide-ready |
-| L3-05 | Case study: neuroblastoma enhancer states | Super-enhancer landscapes can define regulatory identities and plastic cell states. | Super-enhancer state schematic | S017 | slide-ready |
+| L3-03 | Pan-cancer ATAC as discovery engine | TCGA ATAC shows how accessibility maps reveal subtype programs, regulatory elements, and noncoding hypotheses in primary tumors. | W02-P001 publication figure placeholder + optional W02-A012 schematic | S011 | slide-ready |
+| L3-04 | Case study: AR cistrome rewiring | The same transcription factor can bind a different regulatory landscape during tumorigenesis. | W02-P002 publication figure placeholder + optional concept inset | S016 | slide-ready |
+| L3-05 | Case study: neuroblastoma enhancer states | Super-enhancer landscapes can define regulatory identities and plastic cell states. | W02-P003 publication figure placeholder + optional state schematic | S017 | slide-ready |
 | L3-06 | Case study: enhancer hijacking | Structural variants can activate oncogenes by moving them into active enhancer neighborhoods. | W02-A005 enhancer hijacking mechanism | S018, S019 | slide-ready |
-| L3-07 | From peaks to enhancer connectomes | H3K27ac HiChIP and related assays connect active enhancers to candidate target genes across primary tumors. | Enhancer-connectome schematic | S012 | slide-ready |
+| L3-07 | From peaks to enhancer connectomes | H3K27ac HiChIP and related assays connect active enhancers to candidate target genes across primary tumors. | W02-P004 publication figure placeholder + optional connectome schematic | S012 | slide-ready |
 | L3-08 | What contacts can and cannot prove | Physical proximity is regulatory evidence, not causal proof by itself. | Contact-evidence ladder | S010, S012 | slide-ready |
 | L3-09 | Clinically realistic future | Low-input, FFPE-compatible, and primary-tumor regulatory assays are improving, but routine clinical use still needs robust QC and interpretation. | Timeline / translation funnel | S007, S012 | slide-ready |
 | L3-10 | Boundaries with later weeks | Bulk methods establish assay-aware principles that single-cell, spatial, and network modules will extend. | W02-A013 module handoff diagram |  | slide-ready |
-| L3-11 | Discussion prompt | How much evidence is enough to call an element an enhancer, a target gene, or an oncogenic regulatory mechanism? | Evidence-threshold prompt | S008-S012, S018-S019 | slide-ready |
+| L3-11 | Discussion prompt | How much evidence is enough to call an element an enhancer, a target gene, or an oncogenic regulatory mechanism? | Evidence-threshold prompt; no external figure | S008-S012, S018-S019 | slide-ready |
 | L3-12 | Week synthesis | The durable lesson: model the assay, validate the call, then interpret regulatory evidence carefully. | Final summary triangle | S001-S019 | slide-ready |
 
 ## Figure / asset requests
@@ -82,6 +83,18 @@
 | W02-A011 | L3-02 | Original schematic | Resource map linking ENCODE/SCREEN, Cistrome, TCGA ATAC, and 3D resources. | Created in-house; cite S008/S009/S011/S012 | needed |
 | W02-A012 | L3-03 | Original schematic | TCGA ATAC workflow and discoveries in primary cancers. | Created in-house; cite S011 | needed |
 | W02-A013 | L3-10 | Original schematic | Handoff diagram from bulk functional genomics to single-cell, spatial, and network modules. | Created in-house | needed |
+
+
+## Publication figure placeholders
+
+These placeholders are intentionally stored instead of extracted publication figures. Human reviewers may insert original publication figures later if license/fair-use context is appropriate for the teaching setting.
+
+| Placeholder ID | Slide | Source ID | Suggested figure target | What it should demonstrate | Reviewer note | Status |
+|---|---|---|---|---|---|---|
+| W02-P001 | L3-03 | S011 | Corces et al. 2018 Science; pan-cancer ATAC overview/result figure | Primary tumor ATAC-seq reveals regulatory elements, subtype structure, and noncoding regulatory hypotheses. | Insert original/adapted figure only after license/fair-use review; otherwise use W02-A012 original schematic. | placeholder |
+| W02-P002 | L3-04 | S016 | Pomerantz et al. 2015 Nature Genetics; AR cistrome reprogramming figure | AR binding landscape is reprogrammed in prostate tumorigenesis. | Use original figure only after review; otherwise draw simplified before/after cistrome schematic. | placeholder |
+| W02-P003 | L3-05 | S017 | van Groningen/Boeva 2017 Nature Genetics; neuroblastoma super-enhancer/state figure | Super-enhancer/transcriptional circuitry defines neuroblastoma regulatory identities. | Use original figure only after review; otherwise draw two-state enhancer-circuit schematic. | placeholder |
+| W02-P004 | L3-07 | S012 | Yost et al. 2025 Nature Genetics; enhancer-connectome/primary cancer 3D genome figure | H3K27ac HiChIP connects enhancers to oncogene regulatory architecture in primary tumors. | Use original figure only after review; otherwise draw generic enhancer-connectome schematic. | placeholder |
 
 ## Open questions before slide production
 

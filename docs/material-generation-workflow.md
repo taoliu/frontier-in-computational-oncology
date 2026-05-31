@@ -22,6 +22,14 @@ Deep Research intake
 6. **Scripts and audio follow slide IDs.** This keeps later regeneration targeted.
 7. **Keep private source links out of the public repository.** Public files should not include private Google Docs, Telegram attachment IDs, or personal contact details.
 
+
+## Figure policy for public materials
+
+- Store original/generated schematics in the public repository when possible.
+- For publication figures that may be useful in live teaching, store a **placeholder** instead of the extracted figure.
+- Each placeholder should include source ID, suggested paper/figure target when known, what the figure should demonstrate, and this note: “Human reviewer may insert original publication figure if license/fair-use context is appropriate.”
+- Do not commit extracted copyrighted publication figures to the public repository unless the license is clearly reusable.
+
 ## Stage gates
 
 ### 1. Deep Research intake

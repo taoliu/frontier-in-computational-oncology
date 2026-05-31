@@ -29,5 +29,17 @@
 ## Production notes
 
 - Prefer original simplified schematics over copied paper figures to avoid copyright issues and to keep slides visually consistent.
+- Use publication-figure placeholders for case-study result slides where the original paper figure may be pedagogically valuable.
 - Each asset should carry source IDs in slide notes, even when the drawing is original.
 - For the first pilot, make assets as editable PowerPoint shapes or SVG first; export PNG only for compatibility.
+
+## Publication figure placeholders
+
+These are placeholders only. Do not commit extracted copyrighted figures to the public repository unless license status is explicitly reusable.
+
+| Placeholder ID | File path | Type | Used in | Source | License / citation | Status | Notes |
+|---|---|---|---|---|---|---|---|
+| W02-P001 |  | publication-figure-placeholder | L3-03 | S011 Corces et al. 2018 Science | Human reviewer to evaluate fair-use/license before insertion | placeholder | Pan-cancer ATAC result figure candidate. |
+| W02-P002 |  | publication-figure-placeholder | L3-04 | S016 Pomerantz et al. 2015 Nature Genetics | Human reviewer to evaluate fair-use/license before insertion | placeholder | AR cistrome reprogramming figure candidate. |
+| W02-P003 |  | publication-figure-placeholder | L3-05 | S017 van Groningen/Boeva 2017 Nature Genetics | Human reviewer to evaluate fair-use/license before insertion | placeholder | Neuroblastoma enhancer-state figure candidate. |
+| W02-P004 |  | publication-figure-placeholder | L3-07 | S012 Yost et al. 2025 Nature Genetics | Human reviewer to evaluate fair-use/license before insertion | placeholder | Primary cancer enhancer-connectome figure candidate. |
