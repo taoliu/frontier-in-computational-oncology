@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" role="img" aria-label="HMMRATAC: fragment classes become hidden chromatin states">
+
+<defs>
+  <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+    <path d="M0,0 L0,6 L9,3 z" fill="#475569" />
+  </marker>
+</defs>
+
+
+<style>
+  svg { font-family: Arial, Helvetica, sans-serif; background: #ffffff; }
+  .title { font-size: 26px; font-weight: 700; fill: #14213d; }
+  .subtitle { font-size: 15px; fill: #334155; }
+  .label { font-size: 16px; font-weight: 700; fill: #0f172a; }
+  .small { font-size: 13px; fill: #334155; }
+  .tiny { font-size: 11px; fill: #475569; }
+  .box { fill: #f8fafc; stroke: #334155; stroke-width: 1.5; rx: 14; }
+  .input { fill: #e0f2fe; stroke: #0284c7; }
+  .process { fill: #ecfdf5; stroke: #059669; }
+  .warn { fill: #fff7ed; stroke: #ea580c; }
+  .risk { fill: #fef2f2; stroke: #dc2626; }
+  .purple { fill: #f3e8ff; stroke: #7e22ce; }
+  .gray { fill: #f1f5f9; stroke: #64748b; }
+  .dna { stroke: #334155; stroke-width: 3; fill: none; }
+  .read { stroke: #2563eb; stroke-width: 5; stroke-linecap: round; }
+  .peak { fill: #60a5fa; opacity: 0.75; }
+  .accent { stroke: #f97316; stroke-width: 3; fill: none; }
+  .arrow { stroke: #475569; stroke-width: 2.2; fill: none; marker-end: url(#arrow); }
+  .dash { stroke-dasharray: 6 5; }
+</style>
+
+<text x="48" y="54" class="title">HMMRATAC: fragment classes become hidden chromatin states</text>
+<text x="48" y="82" class="subtitle">ATAC-specific modeling uses fragment-size information to distinguish open chromatin and nucleosome context.</text>
+<text x="80" y="135" class="label">Nucleosome-free fragments</text><line x1="360" y1="160" x2="1160" y2="160" stroke="#cbd5e1" stroke-width="3"/><line x1="410" y1="160" x2="455" y2="160" stroke="#38bdf8" stroke-width="8" stroke-linecap="round"/><line x1="525" y1="160" x2="580" y2="160" stroke="#38bdf8" stroke-width="8" stroke-linecap="round"/><line x1="650" y1="160" x2="685" y2="160" stroke="#38bdf8" stroke-width="8" stroke-linecap="round"/><line x1="755" y1="160" x2="805" y2="160" stroke="#38bdf8" stroke-width="8" stroke-linecap="round"/><text x="80" y="235" class="label">Mono-nucleosome fragments</text><line x1="360" y1="260" x2="1160" y2="260" stroke="#cbd5e1" stroke-width="3"/><line x1="410" y1="260" x2="520" y2="260" stroke="#34d399" stroke-width="8" stroke-linecap="round"/><line x1="590" y1="260" x2="720" y2="260" stroke="#34d399" stroke-width="8" stroke-linecap="round"/><line x1="790" y1="260" x2="890" y2="260" stroke="#34d399" stroke-width="8" stroke-linecap="round"/><text x="80" y="335" class="label">Di-nucleosome fragments</text><line x1="360" y1="360" x2="1160" y2="360" stroke="#cbd5e1" stroke-width="3"/><line x1="410" y1="360" x2="620" y2="360" stroke="#a78bfa" stroke-width="8" stroke-linecap="round"/><line x1="690" y1="360" x2="930" y2="360" stroke="#a78bfa" stroke-width="8" stroke-linecap="round"/><rect x="80" y="455" width="260" height="120" class="box process" /><text x="110" y="495" class="label">Fragment classes</text><text x="110" y="525" class="small">separate signal tracks</text><path d="M340,515 L470,515" class="arrow" /><rect x="470" y="455" width="260" height="120" class="box purple" /><text x="500" y="495" class="label">Three-state HMM</text><text x="500" y="525" class="small">open / nucleosomal / background</text><path d="M730,515 L860,515" class="arrow" /><rect x="860" y="455" width="300" height="120" class="box input" /><text x="890" y="495" class="label">ATAC peak calls</text><text x="890" y="525" class="small">assay-specific chromatin states</text><text x="80" y="635" class="label">Teaching point: ATAC-seq paired-end fragment lengths carry biological structure that a generic pileup model may ignore.</text>
+</svg>

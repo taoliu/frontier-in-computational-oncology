@@ -12,11 +12,11 @@
 
 | Asset ID | File path | Type | Used in | Provenance | License / citation | Status | Notes |
 |---|---|---|---|---|---|---|---|
-| W02-A001 |  | schematic | L1-04 | Original assay-comparison graphic | In-house original; cite S001/S004/S006/S010 | needed | Four-column comparison: ChIP-seq enrichment, ATAC fragments, CUT tethered signal, contact matrix. |
-| W02-A002 |  | schematic | L2-03 | Recreated conceptual MACS local-background graphic | In-house recreation from S001 | needed | Avoid copying paper figure directly; show peak, local lambda/background windows, enriched summit. |
-| W02-A003 |  | schematic | L2-06 | HMMRATAC fragment-class/state diagram | In-house recreation from S004 | needed | Show nucleosome-free, mono/di-nucleosome fragments and HMM states. |
+| W02-A001 | `07-assets/images/week-02-functional-genomics/svg/W02-A001_assay_comparison.svg` | schematic | L1-04 | Original assay-comparison graphic | In-house original; cite S001/S004/S006/S010 | drafted | Four-column comparison: ChIP-seq enrichment, ATAC fragments, CUT tethered signal, contact matrix. |
+| W02-A002 | `07-assets/images/week-02-functional-genomics/svg/W02-A002_MACS_local_background.svg` | schematic | L2-03 | Recreated conceptual MACS local-background graphic | In-house recreation from S001 | drafted | Avoid copying paper figure directly; show peak, local lambda/background windows, enriched summit. |
+| W02-A003 | `07-assets/images/week-02-functional-genomics/svg/W02-A003_HMMRATAC_states.svg` | schematic | L2-06 | HMMRATAC fragment-class/state diagram | In-house recreation from S004 | drafted | Show nucleosome-free, mono/di-nucleosome fragments and HMM states. |
 | W02-A004 |  | schematic | L2-10 | Distance-decay null model for chromatin contacts | In-house original; cite S010 | needed | Use generic contact matrix and expected contact decay curve. |
-| W02-A005 |  | schematic | L3-06 | Enhancer hijacking mechanism | In-house original; cite S018/S019 | needed | SV places oncogene near active enhancer/super-enhancer; use generic labels plus examples. |
+| W02-A005 | `07-assets/images/week-02-functional-genomics/svg/W02-A005_enhancer_hijacking.svg` | schematic | L3-06 | Enhancer hijacking mechanism | In-house original; cite S018/S019 | drafted | SV places oncogene near active enhancer/super-enhancer; use generic labels plus examples. |
 | W02-A006 |  | schematic | L1-08 | Structured background and artifact regions | In-house original; cite S001/S014 | needed | Show true signal vs GC/mappability/artifact/blacklist-like regions. |
 | W02-A007 |  | schematic | L1-10 | QC gate diagram | In-house original; cite S002/S007/S013/S014 | needed | Gates: library complexity → FRiP/TSS/cross-correlation → blacklist → replicate/IDR. |
 | W02-A008 |  | table/diagram | L2-02 | Peak/domain caller model comparison grid | In-house original; cite S001/S003/S004/S006 | needed | Rows: MACS, SICER, HMMRATAC, SEACR/GoPeaks; columns: signal, background, output, best use. |

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" role="img" aria-label="Assay families produce different computational objects">
+
+<defs>
+  <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+    <path d="M0,0 L0,6 L9,3 z" fill="#475569" />
+  </marker>
+</defs>
+
+
+<style>
+  svg { font-family: Arial, Helvetica, sans-serif; background: #ffffff; }
+  .title { font-size: 26px; font-weight: 700; fill: #14213d; }
+  .subtitle { font-size: 15px; fill: #334155; }
+  .label { font-size: 16px; font-weight: 700; fill: #0f172a; }
+  .small { font-size: 13px; fill: #334155; }
+  .tiny { font-size: 11px; fill: #475569; }
+  .box { fill: #f8fafc; stroke: #334155; stroke-width: 1.5; rx: 14; }
+  .input { fill: #e0f2fe; stroke: #0284c7; }
+  .process { fill: #ecfdf5; stroke: #059669; }
+  .warn { fill: #fff7ed; stroke: #ea580c; }
+  .risk { fill: #fef2f2; stroke: #dc2626; }
+  .purple { fill: #f3e8ff; stroke: #7e22ce; }
+  .gray { fill: #f1f5f9; stroke: #64748b; }
+  .dna { stroke: #334155; stroke-width: 3; fill: none; }
+  .read { stroke: #2563eb; stroke-width: 5; stroke-linecap: round; }
+  .peak { fill: #60a5fa; opacity: 0.75; }
+  .accent { stroke: #f97316; stroke-width: 3; fill: none; }
+  .arrow { stroke: #475569; stroke-width: 2.2; fill: none; marker-end: url(#arrow); }
+  .dash { stroke-dasharray: 6 5; }
+</style>
+
+<text x="48" y="54" class="title">Assay families produce different computational objects</text>
+<text x="48" y="82" class="subtitle">ChIP-seq, ATAC-seq, CUT assays, and contact assays require different models.</text>
+<rect x="70" y="130" width="250" height="420" class="box input" /><text x="94" y="170" class="label">ChIP-seq</text><text x="94" y="205" class="small">Antibody enrichment</text><path d="M195,225 L195,270" class="arrow" /><path d="M108,310 C155,280 210,340 280,305" class="dna" /><circle cx="192" cy="296" r="28" fill="#fde68a" stroke="#d97706"/><text x="172" y="301" class="tiny">Ab</text><path d="M140,390 C170,330 210,330 255,390" class="peak"/><text x="94" y="460" class="small">Output: Peaks / domains</text><text x="94" y="492" class="small">Use: TFs, histone marks</text><rect x="370" y="130" width="250" height="420" class="box process" /><text x="394" y="170" class="label">ATAC-seq</text><text x="394" y="205" class="small">Tn5 insertion</text><path d="M495,225 L495,270" class="arrow" /><path d="M408,310 C455,280 510,340 580,305" class="dna" /><line x1="425" y1="390" x2="439.0" y2="390" class="read"/><line x1="465" y1="390" x2="492.5" y2="390" class="read"/><line x1="505" y1="390" x2="550.0" y2="390" class="read"/><line x1="545" y1="390" x2="612.5" y2="390" class="read"/><text x="394" y="460" class="small">Output: Accessible fragments</text><text x="394" y="492" class="small">Use: Open chromatin + nucleosomes</text><rect x="670" y="130" width="250" height="420" class="box warn" /><text x="694" y="170" class="label">CUT&amp;RUN / CUT&amp;Tag</text><text x="694" y="205" class="small">Tethered cleavage/tagging</text><path d="M795,225 L795,270" class="arrow" /><path d="M708,310 C755,280 810,340 880,305" class="dna" /><circle cx="792" cy="300" r="24" fill="#fed7aa" stroke="#ea580c"/><path d="M792,324 L792,385" class="accent"/><path d="M745,390 C780,350 820,350 855,390" class="peak"/><text x="694" y="460" class="small">Output: Low-background peaks</text><text x="694" y="492" class="small">Use: TFs or chromatin marks</text><rect x="970" y="130" width="250" height="420" class="box purple" /><text x="994" y="170" class="label">Hi-C / HiChIP</text><text x="994" y="205" class="small">Proximity ligation</text><path d="M1095,225 L1095,270" class="arrow" /><path d="M1008,310 C1055,280 1110,340 1180,305" class="dna" /><rect x="1035" y="350" width="26" height="26" fill="#7e22ce" opacity="0.44999999999999996"/><rect x="1065" y="350" width="26" height="26" fill="#7e22ce" opacity="0.2"/><rect x="1095" y="350" width="26" height="26" fill="#7e22ce" opacity="0.2"/><rect x="1125" y="350" width="26" height="26" fill="#7e22ce" opacity="0.30000000000000004"/><rect x="1035" y="380" width="26" height="26" fill="#7e22ce" opacity="0.2"/><rect x="1065" y="380" width="26" height="26" fill="#7e22ce" opacity="0.35"/><rect x="1095" y="380" width="26" height="26" fill="#7e22ce" opacity="0.30000000000000004"/><rect x="1125" y="380" width="26" height="26" fill="#7e22ce" opacity="0.2"/><rect x="1035" y="410" width="26" height="26" fill="#7e22ce" opacity="0.2"/><rect x="1065" y="410" width="26" height="26" fill="#7e22ce" opacity="0.30000000000000004"/><rect x="1095" y="410" width="26" height="26" fill="#7e22ce" opacity="0.35"/><rect x="1125" y="410" width="26" height="26" fill="#7e22ce" opacity="0.2"/><rect x="1035" y="440" width="26" height="26" fill="#7e22ce" opacity="0.30000000000000004"/><rect x="1065" y="440" width="26" height="26" fill="#7e22ce" opacity="0.2"/><rect x="1095" y="440" width="26" height="26" fill="#7e22ce" opacity="0.2"/><rect x="1125" y="440" width="26" height="26" fill="#7e22ce" opacity="0.44999999999999996"/><text x="994" y="460" class="small">Output: Contact matrix</text><text x="994" y="492" class="small">Use: Enhancer-promoter linkage</text><text x="70" y="615" class="label">Teaching point: assay chemistry determines the statistical object before software enters the story.</text>
+</svg>

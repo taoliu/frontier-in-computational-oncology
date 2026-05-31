@@ -16,9 +16,9 @@
 | Slide outline | `04-slides/...` | slide-ready draft | Three 12-slide lecture outlines created with source IDs, generated-asset IDs, and publication-figure placeholders; ready for Dr. Liu pacing review and asset generation. |
 | Speaker scripts | `05-scripts/...` | pending |  |
 | Audio | `06-audio/...` | pending |  |
-| Assets | `07-assets/...` | planned | 13 original schematic/table assets plus 4 publication-figure placeholders specified in asset manifest; none generated yet. |
+| Assets | `07-assets/...` | planned | 13 original schematic/table assets plus 4 publication-figure placeholders specified; first 4 SVG assets drafted (W02-A001/A002/A003/A005). |
 | Exports | `08-exports/...` | pending |  |
 
 ## Next action
 
-- Review the 36-slide Week 02 outline for pacing, then generate original editable schematics while leaving publication-figure placeholders for human review.
+- Review first 4 drafted SVG assets, then generate remaining original schematics or begin assembling the Week 02 draft deck.
