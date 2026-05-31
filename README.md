@@ -40,6 +40,11 @@ Teaching material and production workspace for the **Frontier in Computational O
 - Keep generated binary files out of Git when they are large; use local storage or external Drive links as needed.
 - Prefer source-linked claims: every important claim in slides/scripts should trace back to a validated citation or dataset.
 
+## Utility scripts
+
+- `scripts/clean_deep_research_reports.sh` removes ChatGPT/OpenAI Deep Research internal citation artifacts from imported report/intake Markdown files.
+- `scripts/clean_openai_citations.py` is the reusable cleaner; use `--check`, `--dry-run`, or `--write`.
+
 ## Source documents
 
 Private planning docs and Google Doc links are intentionally not stored in this public repository. Public-facing course materials should be derived from the versioned Markdown files in this repo.

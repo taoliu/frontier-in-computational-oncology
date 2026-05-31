@@ -32,6 +32,6 @@ Note: This module appears to correspond to **Week 05** in the prepared course re
 
 ## Notes
 
-- The Deep Research output contains internal ChatGPT citation tokens such as `turn39view0`; these are not usable in final course materials.
+- The original Deep Research output contained internal ChatGPT citation tokens; imported report/intake Markdown has been cleaned, and final materials still need real DOI/URL citations.
 - Validation should replace those tokens with real DOI/URL citations and mark unsupported claims for revision.
 - Because the module is very broad, validation should also flag items that are accurate but too detailed for a three-lecture week.

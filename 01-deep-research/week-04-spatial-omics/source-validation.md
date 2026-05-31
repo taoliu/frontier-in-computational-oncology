@@ -35,6 +35,6 @@ Note: Dr. Liu labeled this as **module 4**. In the course outline this correspon
 
 ## Notes
 
-- The Deep Research output contains internal ChatGPT citation tokens such as `turn22view4`; these are not usable in final course materials.
+- The original Deep Research output contained internal ChatGPT citation tokens; imported report/intake Markdown has been cleaned, and final materials still need real DOI/URL citations.
 - Validation should replace those tokens with real DOI/URL citations and mark unsupported claims for revision.
 - Keep module boundaries explicit: molecular spatial omics here; dissociated single-cell analysis remains Week 03; H&E/pathology-first image modeling remains Week 09.
