@@ -44,6 +44,12 @@ Teaching material and production workspace for the **Frontier in Computational O
 
 - `scripts/clean_deep_research_reports.sh` removes ChatGPT/OpenAI Deep Research internal citation artifacts from imported report/intake Markdown files.
 - `scripts/clean_openai_citations.py` is the reusable cleaner; use `--check`, `--dry-run`, or `--write`.
+- `scripts/scaffold_module_materials.py <week>` creates the source-validation, lecture-plan, slide-outline, script, audio, asset, export, and status scaffold for a module.
+- `scripts/check_module_ready.py <week>` verifies that a module has the expected scaffold files and no leftover OpenAI citation artifacts.
+
+## Workflow documentation
+
+- `docs/material-generation-workflow.md` describes the planned pipeline from Deep Research intake through validation, lecture plans, slides, scripts, audio, assets, and exports.
 
 ## Source documents
 
