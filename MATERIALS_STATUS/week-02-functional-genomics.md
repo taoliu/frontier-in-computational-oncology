@@ -16,9 +16,9 @@
 | Slide outline | `04-slides/...` | slide-ready draft | Three 12-slide lecture outlines created with source IDs, generated-asset IDs, and publication-figure placeholders; ready for Dr. Liu pacing review and asset generation. |
 | Speaker scripts | `05-scripts/...` | pending |  |
 | Audio | `06-audio/...` | pending |  |
-| Assets | `07-assets/...` | planned | 13 original schematic/table assets plus 4 publication-figure placeholders specified; first 4 SVG assets drafted (W02-A001/A002/A003/A005). |
+| Assets | `07-assets/...` | planned | 13 visual slots plus 4 publication-figure placeholders specified. Future visual work should be prompt-first; prompts saved for W02-A001/A002/A003/A005. Existing SVGs are rough templates only. |
 | Exports | `08-exports/...` | pending |  |
 
 ## Next action
 
-- Review first 4 drafted SVG assets, then generate remaining original schematics or begin assembling the Week 02 draft deck.
+- Focus next on text-only slide content and lecturer scripts. Visual slots should remain placeholders with saved gpt-image-2 prompts when useful.
