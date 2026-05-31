@@ -15,10 +15,10 @@
 | Lecture plan | `03-lecture-plans/...` | draft | Pre-validation draft exists and should now be revised against validated source IDs. |
 | Slide outline | `04-slides/...` | slide-ready draft | Three 12-slide lecture outlines created with source IDs and visual placeholders. |
 | Speaker scripts | `05-scripts/...` | in progress | Lecture 1 lecturer script drafted; Lectures 2–3 pending. |
-| Audio | `06-audio/...` | pending |  |
+| Audio | `06-audio/...` | blocked | Pilot generation for Lecture 1 slides 1–3 attempted, but current OpenAI API project lacks access to speech models (`gpt-4o-mini-tts-*` and `tts-1`). Audio manifest records retry settings. |
 | Assets | `07-assets/...` | planned | 13 visual slots plus 4 publication-figure placeholders specified. Future visual work should be prompt-first; prompts saved for W02-A001/A002/A003/A005. Existing SVGs are rough templates only. |
 | Exports | `08-exports/...` | pending |  |
 
 ## Next action
 
-- Review Lecture 1 script for tone/detail, then draft Lecture 2 and Lecture 3 scripts or proceed to audio pilot for Lecture 1.
+- Audio pilot is blocked until API speech-model access is available. Continue with text tasks: draft Lecture 2 and Lecture 3 scripts.
