@@ -94,3 +94,52 @@ Use this file for evidence snippets, validation reasoning, and source-specific c
 - Neuroblastoma super-enhancer state source(s).
 - Enhancer hijacking in medulloblastoma/leukemia source(s).
 - ENCODE blacklist and IDR papers if those get dedicated method slides.
+
+### S013 — IDR reproducibility framework
+
+- Sources: Li et al. arXiv:1110.4705; ENCODE IDR software documentation.
+- What it supports: IDR as a reproducibility/rank-consistency framework for high-throughput experiments and ENCODE-style ChIP-seq peak workflows.
+- Caveats / wording limits: use for replicate consistency and reproducibility; it does not substitute for sound experimental design or biological validation.
+- Where used: Lecture 2 verification toolkit.
+
+### S014 — ENCODE blacklist
+
+- Source: Amemiya et al. 2019, Scientific Reports, doi:10.1038/s41598-019-45839-z.
+- What it supports: blacklist regions as recurrent problematic high-signal/artifactual regions that should be filtered from functional-genomics analyses.
+- Caveats / wording limits: present as a practical QC defense, not as a complete solution to all mapping or mappability artifacts.
+- Where used: Lecture 1 background/bias; Lecture 2 QC pipeline.
+
+### S015 — RECAP / P-value calibration
+
+- Source: Korthauer et al. 2019, Bioinformatics, doi:10.1093/bioinformatics/btz150.
+- What it supports: peak-caller P values can be miscalibrated; RECAP uses resampling to recalibrate ChIP-seq peak-call P values and improve null calibration.
+- Caveats / wording limits: use as a calibration warning, not as a required method for every ChIP-seq analysis.
+- Where used: Lecture 2 verification/calibration caveat.
+
+### S016 — Prostate AR cistrome rewiring
+
+- Source: Pomerantz et al. 2015, Nature Genetics, doi:10.1038/ng.3419.
+- What it supports: AR binding landscapes are extensively reprogrammed in human prostate tumorigenesis; FOXA1/HOXB13 can help reprogram the AR cistrome.
+- Caveats / wording limits: use as a TF-program/cistrome-rewiring case, not as a complete prostate cancer biology lecture.
+- Where used: Lecture 3 case study.
+
+### S017 — Neuroblastoma super-enhancer states
+
+- Sources: van Groningen et al. 2017, doi:10.1038/ng.3899; Boeva et al. 2017, doi:10.1038/ng.3921.
+- What it supports: neuroblastoma cells can be classified into regulatory identities with distinct super-enhancers/transcriptional circuitries, often described as adrenergic and mesenchymal-like states.
+- Caveats / wording limits: keep language to regulatory-state identities; avoid overclaiming direct clinical classification without further sources.
+- Where used: Lecture 3 case study.
+
+### S018 — Medulloblastoma enhancer hijacking
+
+- Source: Northcott et al. 2014, Nature, doi:10.1038/nature13379.
+- What it supports: structural variants can activate GFI1/GFI1B by repositioning them near active enhancers/super-enhancers in medulloblastoma.
+- Caveats / wording limits: strongest as a mechanistic example linking SVs, epigenome, and oncogene activation.
+- Where used: Lecture 3 enhancer-hijacking slide.
+
+### S019 — BCL11B enhancer hijacking in leukemia
+
+- Source: Montefiori et al. 2021, Cancer Discovery, doi:10.1158/2159-8290.CD-20-1299.
+- What it supports: enhancer hijacking can drive oncogenic BCL11B expression in lineage-ambiguous stem cell leukemia.
+- Caveats / wording limits: use as an extension case after medulloblastoma; do not turn Week 02 into leukemia classification.
+- Where used: Lecture 3 enhancer-hijacking slide or optional case-study appendix.

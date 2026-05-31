@@ -19,3 +19,11 @@ Validated bibliography for the Week 02 pilot. See `02-source-validation/week-02-
 15. Juric I et al. MAPS: Model-based analysis of long-range chromatin interactions from PLAC-seq and HiChIP experiments. *PLOS Computational Biology*. 2019;15:e1006982. doi:10.1371/journal.pcbi.1006982.
 16. Corces MR, Granja JM, Shams S, et al. The chromatin accessibility landscape of primary human cancers. *Science*. 2018;362:eaav1898. doi:10.1126/science.aav1898.
 17. Yost KE, Zhao Y, Hung KL, et al. Three-dimensional genome landscape of primary human cancers. *Nature Genetics*. 2025;57:1189-1200. doi:10.1038/s41588-025-02188-0.
+18. Li Q, Brown JB, Huang H, Bickel PJ. Measuring reproducibility of high-throughput experiments. arXiv:1110.4705.
+19. Korthauer K, et al. RECAP reveals the true statistical significance of ChIP-seq peak calls. *Bioinformatics*. 2019;35:3592-3598. doi:10.1093/bioinformatics/btz150.
+20. Amemiya HM, Kundaje A, Boyle AP. The ENCODE Blacklist: Identification of Problematic Regions of the Genome. *Scientific Reports*. 2019;9:9354. doi:10.1038/s41598-019-45839-z.
+21. Pomerantz MM et al. The androgen receptor cistrome is extensively reprogrammed in human prostate tumorigenesis. *Nature Genetics*. 2015;47:1346-1351. doi:10.1038/ng.3419.
+22. van Groningen T et al. Neuroblastoma is composed of two super-enhancer-associated differentiation states. *Nature Genetics*. 2017;49:1261-1266. doi:10.1038/ng.3899.
+23. Boeva V et al. Heterogeneity of neuroblastoma cell identity defined by transcriptional circuitries. *Nature Genetics*. 2017;49:1408-1413. doi:10.1038/ng.3921.
+24. Northcott PA et al. Enhancer hijacking activates GFI1 family oncogenes in medulloblastoma. *Nature*. 2014;511:428-434. doi:10.1038/nature13379.
+25. Montefiori LE et al. Enhancer hijacking drives oncogenic BCL11B expression in lineage ambiguous stem cell leukemia. *Cancer Discovery*. 2021;11:2846-2867. doi:10.1158/2159-8290.CD-20-1299.

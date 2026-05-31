@@ -1,6 +1,6 @@
 # Week 02 — Functional Genomics in Cancer — Lecture Plan
 
-> Pilot draft for testing the material-generation workflow. Source validation is still pending; use this as a planning scaffold, not final lecture text.
+> Pilot draft for testing the material-generation workflow. Core sources have first-pass validation; `S008` remains partial only for date-wording nuance, and current database/tool counts should be checked before slide finalization.
 
 ## Module story
 
@@ -54,6 +54,7 @@ The week should teach students to ask three durable questions before choosing to
 - S004 HMMRATAC
 - S006 SEACR / GoPeaks
 - S007 ENCODE pipelines
+- S014 ENCODE blacklist
 
 ## Lecture 2 — Method Development & Verification
 
@@ -95,6 +96,9 @@ The week should teach students to ask three durable questions before choosing to
 
 - S001–S007
 - S010 FitHiC2 / MAPS
+- S013 IDR
+- S014 ENCODE blacklist
+- S015 RECAP calibration caution
 
 ## Lecture 3 — Application & State of the Field
 
@@ -137,6 +141,10 @@ The week should teach students to ask three durable questions before choosing to
 - S009 Cistrome DB/Cistrome Cancer
 - S011 TCGA pan-cancer ATAC
 - S012 primary-cancer 3D genome maps
+- S016 prostate cancer AR cistrome rewiring
+- S017 neuroblastoma super-enhancer states
+- S018 medulloblastoma enhancer hijacking
+- S019 BCL11B enhancer hijacking in leukemia
 
 ## Assignment / discussion ideas
 
@@ -149,5 +157,5 @@ The week should teach students to ask three durable questions before choosing to
 
 - Which Week 02 claims should be lecture-critical versus optional?
 - Should chromatin interaction methods receive a full section or only a selective bridge to enhancer connectomes?
-- Which cancer case studies should be emphasized: TCGA ATAC, prostate AR, neuroblastoma, enhancer hijacking, or primary-cancer 3D genome maps?
+- Which cancer case studies should be emphasized most heavily now that the initial validation set supports TCGA ATAC, prostate AR, neuroblastoma, enhancer hijacking, and primary-cancer 3D genome maps?
 - How much tool detail should be included for student assignments versus conceptual lectures?

@@ -19,6 +19,14 @@ Raw Deep Research file: `deep-research-report.md`
 | S011 | TCGA/pan-cancer ATAC-seq core case study | Corces et al. 2018 Science | 10.1126/science.aav1898 | verified | Core case-study claims verified: 410 tumors, 23 cancer types, regulatory discovery framing. |
 | S012 | Primary cancer 3D genome maps / enhancer connectomes | Yost et al. 2025, Nature Genetics | 10.1038/s41588-025-02188-0 | verified | Recent source verified: 69 tumors, 15 primary cancer types, H3K27ac HiChIP enhancer-connectome framing. |
 
+| S013 | IDR / reproducibility framework for high-throughput genomic experiments | Li et al. 2011 arXiv; ENCODE IDR docs | arXiv:1110.4705; https://www.encodeproject.org/software/idr/ | verified | Supports replicate consistency/QC framing; use as conceptual reproducibility framework. |
+| S014 | ENCODE blacklist regions remove artifactual genomic signal | Amemiya et al. 2019 Scientific Reports | 10.1038/s41598-019-45839-z | verified | Supports blacklist filtering as a practical QC step in ChIP-seq/ATAC-style workflows. |
+| S015 | RECAP recalibration cautions for ChIP-seq peak-caller P values | Korthauer et al. 2019 Bioinformatics | 10.1093/bioinformatics/btz150 | verified | Supports calibration warning: RECAP recalibrates ChIP-seq peak-call P values using resampling and shows improved null calibration. |
+| S016 | Prostate cancer AR cistrome rewiring | Pomerantz et al. 2015 Nature Genetics | 10.1038/ng.3419 | verified | Supports AR cistrome reprogramming during prostate tumorigenesis and FOXA1/HOXB13 framing. |
+| S017 | Neuroblastoma super-enhancer-associated ADRN/MES-like states | van Groningen et al. 2017; Boeva et al. 2017 Nature Genetics | 10.1038/ng.3899; 10.1038/ng.3921 | verified | Supports neuroblastoma super-enhancer/transcriptional-circuitry state case study. |
+| S018 | Medulloblastoma enhancer hijacking activates GFI1/GFI1B | Northcott et al. 2014 Nature | 10.1038/nature13379 | verified | Supports SV-mediated enhancer hijacking as a pediatric cancer case study. |
+| S019 | BCL11B enhancer hijacking in lineage-ambiguous leukemia | Montefiori et al. 2021 Cancer Discovery | 10.1158/2159-8290.CD-20-1299 | verified | Supports leukemia enhancer-hijacking example. |
+
 ## Notes
 
 - The original Deep Research output contained internal ChatGPT citation tokens; imported report/intake Markdown has been cleaned, and final materials still need real DOI/URL citations.
