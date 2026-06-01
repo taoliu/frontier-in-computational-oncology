@@ -826,3 +826,404 @@
 ---
 
 ## Lecture 3 — Application & State of the Field
+### L3-01 — From methods to cancer insight
+
+**Slide text**
+
+- Lecture 3 asks how functional genomics changes cancer interpretation
+- Public resources convert many assays into reusable regulatory priors
+- Case studies show regulatory mechanisms missed by mutation-only views
+
+**Visual placeholder**
+
+- Opening map: methods from Lecture 2 flowing into resources, cancer case studies, and future single-cell/spatial/network modules.
+
+**Speaker intent**
+
+- Production slide with approximately 90 seconds of narration.
+
+**Sources**
+
+- Module synthesis, S008-S012, S016-S019
+
+### L3-02 — The application checklist
+
+**Slide text**
+
+- What resource or cohort produced the regulatory evidence?
+- What assay object and model created the feature?
+- What cancer claim is justified by the evidence?
+
+**Visual placeholder**
+
+- Three-step checklist card: resource/cohort → assay/model → cancer claim.
+
+**Speaker intent**
+
+- Production slide with approximately 90 seconds of narration.
+
+**Sources**
+
+- S008-S012
+
+### L3-03 — Public atlases are reusable priors
+
+**Slide text**
+
+- ENCODE and related resources organize functional elements across biosamples
+- cCREs summarize candidate regulatory evidence, not validated causal function
+- Atlases help interpret new cancer datasets, but context still matters
+
+**Visual placeholder**
+
+- Regulatory atlas schematic: many assays and biosamples feeding a reusable candidate-element registry.
+
+**Speaker intent**
+
+- Production slide with approximately 90 seconds of narration.
+
+**Sources**
+
+- S008
+
+### L3-04 — SCREEN and cCRE language
+
+**Slide text**
+
+- SCREEN exposes candidate cis-regulatory elements for search and reuse
+- Labels reflect evidence combinations such as accessibility and histone marks
+- The word candidate should stay visible in interpretation
+
+**Visual placeholder**
+
+- Browser-style cCRE card showing accessibility, enhancer-like mark, promoter-like mark, and candidate label.
+
+**Speaker intent**
+
+- Production slide with approximately 90 seconds of narration.
+
+**Sources**
+
+- S008
+
+### L3-05 — Cistrome turns public data into hypotheses
+
+**Slide text**
+
+- Cistrome resources collect and process public chromatin datasets
+- Cistrome Cancer links regulatory profiles to cancer questions
+- Reuse is powerful when metadata, QC, and biological context are checked
+
+**Visual placeholder**
+
+- Resource workflow: public ChIP-seq/ATAC-seq/DNase-seq → curated database → cancer hypothesis.
+
+**Speaker intent**
+
+- Production slide with approximately 90 seconds of narration.
+
+**Sources**
+
+- S009
+
+### L3-06 — Resource use is not shortcut biology
+
+**Slide text**
+
+- Public tracks provide priors, not automatic answers
+- Biosample match, antibody/assay quality, and processing choices affect interpretation
+- Good reuse asks whether the prior fits the cancer context
+
+**Visual placeholder**
+
+- Decision tree for using a public regulatory track: match, quality, evidence type, context.
+
+**Speaker intent**
+
+- Production slide with approximately 90 seconds of narration.
+
+**Sources**
+
+- S007-S009, S014
+
+### L3-07 — Pan-cancer ATAC-seq maps regulatory state
+
+**Slide text**
+
+- TCGA ATAC-seq profiled chromatin accessibility across primary tumors
+- Accessibility patterns reveal tumor-type and subtype regulatory programs
+- Noncoding regulatory features can become cohort-level biological variables
+
+**Visual placeholder**
+
+- Cohort schematic: many tumor samples → ATAC peak matrix → cancer-type/subtype regulatory map.
+
+**Speaker intent**
+
+- Production slide with approximately 90 seconds of narration.
+
+**Sources**
+
+- S011
+
+### L3-08 — What pan-cancer accessibility adds
+
+**Slide text**
+
+- Accessibility can highlight active regulatory elements beyond coding mutations
+- Risk loci and noncoding elements can be linked to tumor regulatory programs
+- The output is a map of candidate regulatory activity across cancers
+
+**Visual placeholder**
+
+- Three-panel schematic: subtype-specific peak, risk-locus accessibility, candidate enhancer near gene.
+
+**Speaker intent**
+
+- Production slide with approximately 90 seconds of narration.
+
+**Sources**
+
+- S011
+
+### L3-09 — AR cistrome rewiring in prostate cancer
+
+**Slide text**
+
+- The same transcription factor can bind different sites in tumor versus normal context
+- AR binding is extensively reprogrammed during prostate tumorigenesis
+- Cofactors and chromatin context help reshape the regulatory program
+
+**Visual placeholder**
+
+- Normal versus tumor AR binding map with shifted enhancer usage and cofactor icons.
+
+**Speaker intent**
+
+- Production slide with approximately 90 seconds of narration.
+
+**Sources**
+
+- S016
+
+### L3-10 — The lesson from TF rewiring
+
+**Slide text**
+
+- TF activity is not determined by motif sequence alone
+- Cancer state can redirect binding and target genes
+- Cistrome rewiring turns regulatory data into a mechanism hypothesis
+
+**Visual placeholder**
+
+- Motif availability plus chromatin context plus cofactors leading to tumor-specific TF targets.
+
+**Speaker intent**
+
+- Production slide with approximately 90 seconds of narration.
+
+**Sources**
+
+- S005, S016
+
+### L3-11 — Super-enhancers as regulatory identity markers
+
+**Slide text**
+
+- Clusters of enhancer activity can mark core transcriptional circuitry
+- Neuroblastoma studies revealed super-enhancer-associated cell states
+- Regulatory identity can explain tumor heterogeneity beyond mutation lists
+
+**Visual placeholder**
+
+- Super-enhancer landscape separating two neuroblastoma regulatory states.
+
+**Speaker intent**
+
+- Production slide with approximately 90 seconds of narration.
+
+**Sources**
+
+- S017
+
+### L3-12 — Interpreting super-enhancer claims carefully
+
+**Slide text**
+
+- Super-enhancer calls depend on ranking and stitching choices
+- A strong enhancer cluster suggests regulatory importance, not automatic dependency
+- Perturbation or convergent evidence strengthens the claim
+
+**Visual placeholder**
+
+- Ranked enhancer signal curve with cutoff, stitched cluster, and validation evidence ladder.
+
+**Speaker intent**
+
+- Production slide with approximately 90 seconds of narration.
+
+**Sources**
+
+- S017, S015
+
+### L3-13 — Enhancer hijacking: structural variation meets regulation
+
+**Slide text**
+
+- Structural variants can reposition enhancers near oncogenes
+- Medulloblastoma enhancer hijacking activates GFI1-family oncogenes
+- The mechanism requires integrating SV, enhancer evidence, and expression
+
+**Visual placeholder**
+
+- Before/after genome cartoon: rearrangement moves active enhancer beside oncogene.
+
+**Speaker intent**
+
+- Production slide with approximately 90 seconds of narration.
+
+**Sources**
+
+- S018
+
+### L3-14 — BCL11B enhancer hijacking in leukemia
+
+**Slide text**
+
+- Enhancer hijacking can activate oncogenes in lineage-ambiguous leukemia
+- BCL11B deregulation illustrates allele-specific regulatory activation
+- This is a regulatory mechanism, not a coding-mutation mechanism
+
+**Visual placeholder**
+
+- Leukemia example schematic: rearranged enhancer neighborhood causing BCL11B activation.
+
+**Speaker intent**
+
+- Production slide with approximately 90 seconds of narration.
+
+**Sources**
+
+- S019
+
+### L3-15 — 3D genome maps add enhancer-connectome evidence
+
+**Slide text**
+
+- H3K27ac HiChIP can connect active enhancers with promoter neighborhoods
+- Primary-cancer 3D maps reveal static, gained, and rewired enhancer usage
+- Contacts add linkage evidence, not automatic causal proof
+
+**Visual placeholder**
+
+- Enhancer-connectome diagram: active enhancer loops to promoter across cancer contexts.
+
+**Speaker intent**
+
+- Production slide with approximately 90 seconds of narration.
+
+**Sources**
+
+- S012, S010
+
+### L3-16 — From peaks to enhancer connectomes
+
+**Slide text**
+
+- Accessibility and histone marks identify candidate regulatory elements
+- Contact maps suggest which promoters they may influence
+- Expression and perturbation decide how strong the target-gene claim can be
+
+**Visual placeholder**
+
+- Evidence chain: peak/mark → contact → expression link → perturbation-supported target.
+
+**Speaker intent**
+
+- Production slide with approximately 90 seconds of narration.
+
+**Sources**
+
+- S010, S012
+
+### L3-17 — Bulk functional genomics still has limits
+
+**Slide text**
+
+- Bulk profiles mix tumor, stromal, immune, and lineage states
+- Rare subclones and spatial niches can be averaged away
+- Regulatory maps often identify candidates, not complete causal circuits
+
+**Visual placeholder**
+
+- Bulk signal decomposition cartoon showing tumor, immune, stromal, and rare-state contributions.
+
+**Speaker intent**
+
+- Production slide with approximately 90 seconds of narration.
+
+**Sources**
+
+- S011, S012
+
+### L3-18 — Natural handoff to single-cell and spatial modules
+
+**Slide text**
+
+- Single-cell assays separate regulatory programs across cell states
+- Spatial methods ask where those states and signals occur in tissue
+- Network models ask how regulatory elements and genes form systems
+
+**Visual placeholder**
+
+- Module bridge: bulk regulatory map → single-cell resolution → spatial context → network/causal model.
+
+**Speaker intent**
+
+- Production slide with approximately 90 seconds of narration.
+
+**Sources**
+
+- Module synthesis, S011, S012
+
+### L3-19 — A reading checklist for cancer papers
+
+**Slide text**
+
+- Translate each claim back to the assay evidence
+- Separate candidate, linked, active, and validated regulatory elements
+- Ask what would change the authors’ conclusion if removed
+
+**Visual placeholder**
+
+- Paper-reading checklist with graded claim language: candidate, linked, active, validated.
+
+**Speaker intent**
+
+- Production slide with approximately 90 seconds of narration.
+
+**Sources**
+
+- S001-S019
+
+### L3-20 — Week 2 synthesis
+
+**Slide text**
+
+- Functional genomics turns molecular readouts into regulatory evidence
+- Cancer applications reveal subtype programs, TF rewiring, enhancer activation, and 3D linkage
+- Strong interpretation requires assay-aware methods, reproducibility, and graded claims
+- Next: higher-resolution regulatory biology in later modules
+
+**Visual placeholder**
+
+- Final Week 2 synthesis: assay → method → resource/case study → careful cancer mechanism claim.
+
+**Speaker intent**
+
+- Production slide with approximately 90 seconds of narration.
+
+**Sources**
+
+- S001-S019
+
