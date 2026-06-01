@@ -21,4 +21,4 @@
 
 ## Next action
 
-- Revise Week 02 Lecture 1 toward the final delivery target: ~30 minutes, ~20 slides, ~1.5 minutes narration per slide, with a 1-second autoplay pause between slides. Current 12-slide / ~10:40 export is a successful technical pilot but too short for final delivery.
+- Review the Week 02 Lecture 1 20-slide production text/script. After approval, regenerate all Lecture 1 audio and rebuild the HTML export.
