@@ -10,7 +10,7 @@ HTML = """<!doctype html>
   <meta charset=\"utf-8\" />
   <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />
   <title>{title}</title>
-  <link rel=\"stylesheet\" href=\"../../../../shared/html-player/style.css\" />
+  <link rel=\"stylesheet\" href=\"../../../shared/html-player/style.css\" />
 </head>
 <body>
   <div class=\"app\">
@@ -49,7 +49,7 @@ HTML = """<!doctype html>
     </footer>
   </div>
   <script>window.LECTURE_DECK = {deck_json};</script>
-  <script src=\"../../../../shared/html-player/player.js\"></script>
+  <script src=\"../../../shared/html-player/player.js\"></script>
 </body>
 </html>
 """
