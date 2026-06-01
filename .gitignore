@@ -8,14 +8,11 @@ __pycache__/
 *.pyc
 .ipynb_checkpoints/
 
-# Generated / large media
-06-audio/**/*.mp3
-06-audio/**/*.wav
-06-audio/**/*.m4a
+# Generated / large export media
+# Source course audio under 06-audio/ is intentionally tracked, including local Qwen3-TTS MP3s.
 08-exports/**/*.pptx
 08-exports/**/*.pdf
 08-exports/**/*.mp4
 
 # Keep folder placeholders
 !.gitkeep
-!08-exports/week-02-functional-genomics/html/lecture-01/assets/audio/*.mp3
