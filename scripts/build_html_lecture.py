@@ -41,11 +41,10 @@ HTML = """<!doctype html>
     <footer>
       <div class=\"controls\">
         <button class=\"secondary\" data-prev>← Previous slide</button>
-        <button data-reveal>Reveal next</button>
-        <button class=\"secondary\" data-next>Next slide →</button>
-        <button class=\"secondary\" data-reset>Reset slide</button>
+        <button data-next>Next slide →</button>
+        <button class=\"secondary\" data-replay>Replay audio</button>
       </div>
-      <div class=\"meta\">Keyboard: ← / → / Space, R reset</div>
+      <div class=\"meta\">Keyboard: ← / → / Space, R replay</div>
     </footer>
   </div>
   <script>window.LECTURE_DECK = {deck_json};</script>
