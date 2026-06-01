@@ -26,7 +26,7 @@ Preferred pilot settings:
 |---|---|---|---|---|---|---|
 | L01-S001 | Lecture 1 slide 1 | `05-scripts/week-02-functional-genomics/lecture-01-script.md` | `06-audio/week-02-functional-genomics/lecture-01/week02_lecture01_L1-01.mp3` | TBD | accepted pilot | Dr. Liu judged pilot audio quality nice; generated with `gpt-4o-mini-tts-2025-12-15`, voice `cedar`. |
 | L01-S002 | Lecture 1 slide 2 | `05-scripts/week-02-functional-genomics/lecture-01-script.md` | `06-audio/week-02-functional-genomics/lecture-01/week02_lecture01_L1-02.mp3` | TBD | accepted pilot | Dr. Liu judged pilot audio quality nice; generated with `gpt-4o-mini-tts-2025-12-15`, voice `cedar`. |
-| L01-S003 | Lecture 1 slide 3 | `05-scripts/week-02-functional-genomics/lecture-01-script.md` | `06-audio/week-02-functional-genomics/lecture-01/week02_lecture01_L1-03.mp3` | TBD | accepted pilot | Dr. Liu judged pilot audio quality nice; generated with `gpt-4o-mini-tts-2025-12-15`, voice `cedar`. |
+| L01-S003 | Lecture 1 slide 3 | `05-scripts/week-02-functional-genomics/lecture-01-script.md` | `06-audio/week-02-functional-genomics/lecture-01/week02_lecture01_L1-03.mp3` | TBD | regenerated | Original pilot clip was truncated before the third question; regenerated full slide audio with `gpt-4o-mini-tts-2025-12-15`, voice `cedar`, on 2026-05-31. |
 
 ## TTS instructions for retry
 
