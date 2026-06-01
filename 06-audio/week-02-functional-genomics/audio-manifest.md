@@ -10,13 +10,13 @@ Preferred pilot settings:
 - Preferred voice: `cedar`
 - Fallback voice attempted: `onyx`
 - Output format: `mp3`
-- Status: blocked by API project model access
+- Status: pilot clips generated for Lecture 1 slides 1–3
 
 ## Attempt log
 
 | Date | Segment(s) | Model | Voice | Result | Notes |
 |---|---|---|---|---|---|
-| 2026-05-31 | Lecture 1 slides 1–3 | `gpt-4o-mini-tts-2025-12-15` | `cedar` | blocked | OpenAI API returned 403: project lacks access to model. |
+| 2026-05-31 | Lecture 1 slides 1–3 | `gpt-4o-mini-tts-2025-12-15` | `cedar` | generated | Generated three MP3 pilot clips after model access was enabled. |
 | 2026-05-31 | Lecture 1 slides 1–3 | `gpt-4o-mini-tts` | `cedar` | blocked | OpenAI API returned 403: project lacks access to model. |
 | 2026-05-31 | Lecture 1 slides 1–3 | `tts-1` | `onyx` | blocked | OpenAI API returned 403: project lacks access to model. |
 
@@ -24,9 +24,9 @@ Preferred pilot settings:
 
 | Segment ID | Lecture | Script file | Output file | Duration | Status | Regeneration notes |
 |---|---|---|---|---|---|---|
-| L01-S001 | Lecture 1 slide 1 | `05-scripts/week-02-functional-genomics/lecture-01-script.md` | `06-audio/week-02-functional-genomics/lecture-01/week02_lecture01_L1-01.mp3` | TBD | blocked | Generate once API project has access to a speech model. |
-| L01-S002 | Lecture 1 slide 2 | `05-scripts/week-02-functional-genomics/lecture-01-script.md` | `06-audio/week-02-functional-genomics/lecture-01/week02_lecture01_L1-02.mp3` | TBD | blocked | Generate once API project has access to a speech model. |
-| L01-S003 | Lecture 1 slide 3 | `05-scripts/week-02-functional-genomics/lecture-01-script.md` | `06-audio/week-02-functional-genomics/lecture-01/week02_lecture01_L1-03.mp3` | TBD | blocked | Generate once API project has access to a speech model. |
+| L01-S001 | Lecture 1 slide 1 | `05-scripts/week-02-functional-genomics/lecture-01-script.md` | `06-audio/week-02-functional-genomics/lecture-01/week02_lecture01_L1-01.mp3` | TBD | accepted pilot | Dr. Liu judged pilot audio quality nice; generated with `gpt-4o-mini-tts-2025-12-15`, voice `cedar`. |
+| L01-S002 | Lecture 1 slide 2 | `05-scripts/week-02-functional-genomics/lecture-01-script.md` | `06-audio/week-02-functional-genomics/lecture-01/week02_lecture01_L1-02.mp3` | TBD | accepted pilot | Dr. Liu judged pilot audio quality nice; generated with `gpt-4o-mini-tts-2025-12-15`, voice `cedar`. |
+| L01-S003 | Lecture 1 slide 3 | `05-scripts/week-02-functional-genomics/lecture-01-script.md` | `06-audio/week-02-functional-genomics/lecture-01/week02_lecture01_L1-03.mp3` | TBD | accepted pilot | Dr. Liu judged pilot audio quality nice; generated with `gpt-4o-mini-tts-2025-12-15`, voice `cedar`. |
 
 ## TTS instructions for retry
 
@@ -54,6 +54,6 @@ Delivery: Natural classroom narration, not an advertisement or audiobook perform
 - IDR: “I D R”
 - FRiP: “frip,” fraction of reads in peaks
 
-## Retry command sketch
+## Regeneration note
 
-The local CLI is available at `~/.openclaw/skills/speech/scripts/text_to_speech.py`. Once model access is available, regenerate clips from the Lecture 1 script with the same instructions above.
+The local CLI is available at `~/.openclaw/skills/speech/scripts/text_to_speech.py`. Regenerate clips from the Lecture 1 script with the same instructions above if pacing or pronunciation needs revision.
