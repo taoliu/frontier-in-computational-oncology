@@ -420,3 +420,409 @@
 
 ## Lecture 2 — Method Development & Verification
 
+### L2-01 — Method development follows the assay
+
+**Slide text**
+
+- Different assays produce different statistical objects
+- Peak callers encode assumptions about signal shape and background
+- Lecture 2 goal: choose methods by evidence logic, not habit
+
+**Visual placeholder**
+
+- Opening framework: assay object → model assumption → call → verification.
+
+**Speaker intent**
+
+- Production slide with approximately 90 seconds of narration.
+
+**Sources**
+
+- Module synthesis, S001-S007
+
+### L2-02 — Four modeling questions
+
+**Slide text**
+
+- What signal shape is expected?
+- What background should be subtracted or modeled?
+- How are scores calibrated and ranked?
+- What verification turns a call into usable evidence?
+
+**Visual placeholder**
+
+- Four-question checklist surrounding a candidate regulatory region.
+
+**Speaker intent**
+
+- Production slide with approximately 90 seconds of narration.
+
+**Sources**
+
+- S001, S003, S013, S015
+
+### L2-03 — Narrow TF peaks: why MACS mattered
+
+**Slide text**
+
+- TF ChIP-seq often creates focal enrichment
+- MACS models local bias/background and fragment shift
+- The output is a candidate binding event, not functional proof
+
+**Visual placeholder**
+
+- MACS-style diagram: plus/minus strand reads, shifted fragment pileup, local background.
+
+**Speaker intent**
+
+- Production slide with approximately 90 seconds of narration.
+
+**Sources**
+
+- S001
+
+### L2-04 — Local background is a biological safeguard
+
+**Slide text**
+
+- Global background can miss regional biases
+- Local background helps control copy number, mappability, and open chromatin context
+- Cancer data make local expectations especially important
+
+**Visual placeholder**
+
+- Same peak under global background versus local background at amplified/copy-variable locus.
+
+**Speaker intent**
+
+- Production slide with approximately 90 seconds of narration.
+
+**Sources**
+
+- S001, S014
+
+### L2-05 — ChIP-seq QC: strand cross-correlation
+
+**Slide text**
+
+- True protein-binding ChIP-seq creates shifted strand patterns
+- Cross-correlation summarizes signal structure and fragment length
+- QC tells us whether peak calls deserve trust
+
+**Visual placeholder**
+
+- Plus/minus strand cross-correlation curve with fragment-length peak and background shoulder.
+
+**Speaker intent**
+
+- Production slide with approximately 90 seconds of narration.
+
+**Sources**
+
+- S002, S007
+
+### L2-06 — ENCODE-style pipelines as provenance systems
+
+**Slide text**
+
+- Standardized pipelines record processing choices and QC outputs
+- FRiP, library complexity, TSS enrichment, and blacklist filtering support interpretation
+- A pipeline is not a universal best method, but it improves auditability
+
+**Visual placeholder**
+
+- Pipeline provenance ladder: raw data → alignment → filtering → QC → calls → reports.
+
+**Speaker intent**
+
+- Production slide with approximately 90 seconds of narration.
+
+**Sources**
+
+- S007, S014
+
+### L2-07 — Broad domains break narrow-peak assumptions
+
+**Slide text**
+
+- Some histone marks form diffuse enriched regions
+- Spatial clustering can detect domains rather than focal summits
+- Method choice changes whether biology appears fragmented or continuous
+
+**Visual placeholder**
+
+- Narrow peak caller splitting broad histone mark versus SICER-style enriched domain.
+
+**Speaker intent**
+
+- Production slide with approximately 90 seconds of narration.
+
+**Sources**
+
+- S003
+
+### L2-08 — ATAC-seq requires fragment-aware modeling
+
+**Slide text**
+
+- ATAC reads contain both accessibility and nucleosome-scale information
+- Short and nucleosomal fragments should not always be pooled blindly
+- HMMRATAC models fragment classes as chromatin states
+
+**Visual placeholder**
+
+- Three ATAC fragment coverage tracks feeding into hidden chromatin-state path.
+
+**Speaker intent**
+
+- Production slide with approximately 90 seconds of narration.
+
+**Sources**
+
+- S004
+
+### L2-09 — CUT assays change the background problem
+
+**Slide text**
+
+- CUT&RUN and CUT&Tag create tethered, often low-background signal
+- Sparse enrichment can make standard ChIP assumptions mismatched
+- SEACR and GoPeaks illustrate assay-specific caller design
+
+**Visual placeholder**
+
+- CUT&RUN sparse peaks and CUT&Tag histone-mark signal compared with ChIP-seq background.
+
+**Speaker intent**
+
+- Production slide with approximately 90 seconds of narration.
+
+**Sources**
+
+- S006
+
+### L2-10 — Motif enrichment is sequence evidence
+
+**Slide text**
+
+- Motif enrichment asks which sequence patterns are overrepresented
+- It suggests candidate TF families, not direct occupancy
+- Background sequence choice strongly affects results
+
+**Visual placeholder**
+
+- Peak set → motif enrichment → candidate TF family, with matched background sequence.
+
+**Speaker intent**
+
+- Production slide with approximately 90 seconds of narration.
+
+**Sources**
+
+- S005
+
+### L2-11 — Footprinting asks a stronger question
+
+**Slide text**
+
+- Footprints use cut-site patterns around motifs
+- Bias correction is essential for ATAC-seq footprinting
+- Footprint ≠ guaranteed binding; it is occupancy-like evidence
+
+**Visual placeholder**
+
+- Motif-centered ATAC cut profile before and after Tn5 bias correction.
+
+**Speaker intent**
+
+- Production slide with approximately 90 seconds of narration.
+
+**Sources**
+
+- S005
+
+### L2-12 — Contact calling needs a distance-aware null
+
+**Slide text**
+
+- Contact frequency decays with genomic distance
+- FitHiC2 models statistical confidence for Hi-C contacts
+- MAPS models PLAC-seq/HiChIP long-range interactions
+
+**Visual placeholder**
+
+- Contact count plotted against distance-decay background with significant outlier interaction.
+
+**Speaker intent**
+
+- Production slide with approximately 90 seconds of narration.
+
+**Sources**
+
+- S010
+
+### L2-13 — Replicates are about ranked stability
+
+**Slide text**
+
+- Reproducibility is more than overlap between peak lists
+- IDR-style analysis asks whether ranks are consistent
+- Stable high-ranking calls are better candidates for interpretation
+
+**Visual placeholder**
+
+- Two replicate ranked lists feeding into reproducible high-confidence calls.
+
+**Speaker intent**
+
+- Production slide with approximately 90 seconds of narration.
+
+**Sources**
+
+- S013, S007
+
+### L2-14 — Calibration affects prioritization
+
+**Slide text**
+
+- Peak-caller P values depend on model assumptions
+- RECAP shows nominal significance can be miscalibrated
+- Poor calibration can distort top-candidate selection
+
+**Visual placeholder**
+
+- Nominal P values versus calibrated empirical significance; top candidates reshuffled.
+
+**Speaker intent**
+
+- Production slide with approximately 90 seconds of narration.
+
+**Sources**
+
+- S015
+
+### L2-15 — Benchmark design must match the claim
+
+**Slide text**
+
+- Gold standards are often incomplete or biased
+- Simulations test assumptions, not full biological truth
+- Benchmarks should evaluate the decision the method will support
+
+**Visual placeholder**
+
+- Benchmark triangle: simulated truth, orthogonal assays, perturbation-supported examples.
+
+**Speaker intent**
+
+- Production slide with approximately 90 seconds of narration.
+
+**Sources**
+
+- S007, S013, S015
+
+### L2-16 — Orthogonal evidence strengthens weak labels
+
+**Slide text**
+
+- Different assays answer different parts of the regulatory question
+- Concordant evidence supports annotation; discordance reveals uncertainty
+- Perturbation is strongest when causal claims are needed
+
+**Visual placeholder**
+
+- Evidence ladder from peak call to orthogonal mark, expression link, contact, perturbation.
+
+**Speaker intent**
+
+- Production slide with approximately 90 seconds of narration.
+
+**Sources**
+
+- S008, S009, S010
+
+### L2-17 — Cancer-specific verification adds extra checks
+
+**Slide text**
+
+- Copy number and purity can distort read depth and apparent accessibility
+- Subtype and cell-mixture effects can masquerade as tumor-intrinsic programs
+- Verification should consider tumor context, not only assay QC
+
+**Visual placeholder**
+
+- Cancer-specific QC overlay: copy number, purity, subtype, mixture, regulatory call.
+
+**Speaker intent**
+
+- Production slide with approximately 90 seconds of narration.
+
+**Sources**
+
+- S011, S012, S014
+
+### L2-18 — Choosing a method is choosing a claim
+
+**Slide text**
+
+- Narrow peak, broad domain, footprint, state, and contact calls support different statements
+- Tool choice should be explained in biological language
+- The output label should match the evidence strength
+
+**Visual placeholder**
+
+- Method-to-claim map: MACS peak, SICER domain, HMMRATAC state, TOBIAS footprint, FitHiC2 contact.
+
+**Speaker intent**
+
+- Production slide with approximately 90 seconds of narration.
+
+**Sources**
+
+- S001, S003, S004, S005, S010
+
+### L2-19 — A practical verification checklist
+
+**Slide text**
+
+- Assay-object match: does the method fit the data?
+- QC and filtering: is the experiment interpretable?
+- Replicates and calibration: are rankings stable and scores meaningful?
+- Biological integration: what evidence supports the claim?
+
+**Visual placeholder**
+
+- Checklist card for reviewing a functional-genomics method section.
+
+**Speaker intent**
+
+- Production slide with approximately 90 seconds of narration.
+
+**Sources**
+
+- S001-S015
+
+### L2-20 — Lecture 2 synthesis
+
+**Slide text**
+
+- Methods differ because assay assumptions differ
+- Verification is part of method development, not an afterthought
+- Careful claims connect computational calls to cancer biology
+- Next: applying regulatory resources and case studies
+
+**Visual placeholder**
+
+- Final synthesis: method families feeding into verified regulatory evidence and cancer interpretation.
+
+**Speaker intent**
+
+- Production slide with approximately 90 seconds of narration.
+
+**Sources**
+
+- S001-S015
+
+---
+
+## Lecture 3 — Application & State of the Field
