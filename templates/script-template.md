@@ -26,8 +26,9 @@ Speaker notes:
 - If another lecture remains in the same week, preview the next lecture.
 - If this is the last lecture of the week, preview the next module.
 
-## Audio generation notes
+## Audio synthesis notes
 
+- Voice/audio workflow: Dr. Liu synthesizes narration separately with localized Qwen3-TTS voice tool; do not use OpenAI TTS.
 - Preferred voice:
 - Pronunciation notes:
-- Sections to regenerate:
+- Sections to synthesize:

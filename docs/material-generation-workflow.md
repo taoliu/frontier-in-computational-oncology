@@ -87,7 +87,7 @@ Outputs:
 Gate:
 - Scripts match slide IDs.
 - Technical claims remain source-traceable.
-- Pronunciation notes are captured for audio generation.
+- Pronunciation notes are captured for downstream audio synthesis.
 
 ### 6. Audio
 
@@ -95,9 +95,11 @@ Outputs:
 - `06-audio/week-XX-topic/audio-manifest.md`
 
 Gate:
-- Regeneration notes exist for any audio segments.
+- Do not use OpenAI TTS for course voice audio going forward.
+- Dr. Liu synthesizes narration separately with his localized Qwen3-TTS voice tool.
 - Audio segments follow slide IDs.
 - Default delivery uses one MP3 per slide unless a later step requires finer timing.
+- Regeneration/synthesis notes exist for any audio segments.
 
 ### 7. HTML slide/audio delivery
 
@@ -118,5 +120,6 @@ Use Week 02 Functional Genomics as the pilot module before scaling to the remain
 - How many sources can be validated per pass.
 - Whether the lecture-plan template is detailed enough for slide generation.
 - Whether figure/asset manifest fields catch provenance and copyright risks early.
-- How much script detail is needed before audio generation.
+- How much script detail is needed before audio synthesis.
 - Whether the HTML slide/audio player can deliver slide-by-slide content with synchronized audio comfortably.
+- Audio files should be treated as externally synthesized course assets unless Dr. Liu explicitly asks Claw to run a local audio workflow.

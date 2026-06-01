@@ -1,8 +1,10 @@
 # Week 02 — Functional Genomics in Cancer — Audio Manifest
 
-## Voice / generation settings
+## Voice / synthesis settings
 
-Preferred pilot settings:
+Current policy from 2026-06-01: do not use OpenAI TTS for new or revised course voice audio. Dr. Liu will synthesize narration separately with his localized Qwen3-TTS voice tool. Existing OpenAI-generated MP3s are historical assets currently used by the Lecture 1 export unless replaced.
+
+Historical pilot settings:
 
 - Provider: OpenAI Audio API via local `speech` skill
 - Preferred model: `gpt-4o-mini-tts-2025-12-15` or `gpt-4o-mini-tts`
@@ -38,7 +40,7 @@ Preferred pilot settings:
 | L01-S011 | Lecture 1 slide 11 | `05-scripts/week-02-functional-genomics/lecture-01-script.md` | `06-audio/week-02-functional-genomics/lecture-01/week02_lecture01_L1-11.mp3` | TBD | generated | Generated with `gpt-4o-mini-tts-2025-12-15`, voice `cedar`, for full Lecture 1 HTML delivery. |
 | L01-S012 | Lecture 1 slide 12 | `05-scripts/week-02-functional-genomics/lecture-01-script.md` | `06-audio/week-02-functional-genomics/lecture-01/week02_lecture01_L1-12.mp3` | TBD | generated | Generated with `gpt-4o-mini-tts-2025-12-15`, voice `cedar`, for full Lecture 1 HTML delivery. |
 
-## TTS instructions for retry
+## Historical TTS instructions
 
 ```text
 Voice Affect: Calm, clear, lecturer-like, and confident.
@@ -67,7 +69,7 @@ Delivery: Natural classroom narration, not an advertisement or audiobook perform
 
 ## Regeneration note
 
-The local CLI is available at `~/.openclaw/skills/speech/scripts/text_to_speech.py`. Regenerate clips from the Lecture 1 script with the same instructions above if pacing or pronunciation needs revision.
+Do not regenerate course voice audio with OpenAI TTS. For new or revised narration, prepare approved slide-level scripts and wait for Dr. Liu to provide Qwen3-TTS-synthesized MP3 assets, unless he explicitly asks Claw to run a local non-OpenAI workflow.
 ## Lecture 1 production audio — 20-slide export
 
 - Model: `gpt-4o-mini-tts-2025-12-15`

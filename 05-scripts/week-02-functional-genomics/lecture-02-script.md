@@ -8,7 +8,7 @@
 - Target slide count: 20
 - Target narration: ~90 seconds per slide
 - Slide deck: `04-slides/week-02-functional-genomics/slide-text.md`, Lecture 2 section
-- Voice/audio status: production text script ready; audio should be generated only after Dr. Liu review/confirmation
+- Voice/audio status: production text script ready; after Dr. Liu review/confirmation, audio synthesis is handled separately with Dr. Liu’s local Qwen3-TTS voice tool
 - Validation status: first-pass validated source IDs included; figures remain placeholders
 
 ## Teaching arc
@@ -305,10 +305,10 @@ The cancer setting raises the stakes because regulatory calls can become claims 
 
 In the next lecture, we will move from methods to applications. We will use public regulatory resources and cancer case studies, including ENCODE and Cistrome resources, pan-cancer ATAC-seq, AR cistrome rewiring, super-enhancer states, enhancer hijacking, and primary-cancer 3D genome maps, to see how these methods become biological insight.
 
-## Audio generation notes
+## Audio synthesis notes
 
 - Preferred voice: lecturer-style, calm, clear, moderately paced.
-- Production target: approximately 90 seconds per slide; generate audio only after Dr. Liu reviews and confirms this script.
+- Production target: approximately 90 seconds per slide; synthesize audio only after Dr. Liu reviews and confirms this script, using Dr. Liu’s local Qwen3-TTS voice tool rather than OpenAI TTS.
 - Autoplay pause: 1 second between slides in HTML delivery.
 - Pronunciation notes:
   - MACS: “max”
@@ -329,4 +329,4 @@ In the next lecture, we will move from methods to applications. We will use publ
   - IDR: “I D R”
   - FRiP: “frip,” fraction of reads in peaks
 - Sections to regenerate:
-  - Do not generate audio until Dr. Liu approves this Lecture 2 production script.
+  - Do not synthesize audio until Dr. Liu approves this Lecture 2 production script; Dr. Liu will handle voice synthesis separately with local Qwen3-TTS.

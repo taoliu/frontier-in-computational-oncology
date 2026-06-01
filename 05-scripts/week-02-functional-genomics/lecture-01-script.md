@@ -8,7 +8,7 @@
 - Target slide count: 20
 - Target narration: ~90 seconds per slide
 - Slide deck: `04-slides/week-02-functional-genomics/slide-text.md`, Lecture 1 section
-- Voice/audio status: production text script ready; audio should be regenerated after review
+- Voice/audio status: production text script ready; audio synthesis handled separately by Dr. Liu with local Qwen3-TTS voice tool
 - Validation status: first-pass validated source IDs included; figures remain placeholders
 
 ## Teaching arc
@@ -73,7 +73,7 @@ Contact assays, including Hi-C and HiChIP-like methods, observe pairs of genomic
 
 **Transition**
 
-This leads to the next part of the framework.
+That shared track-like view is exactly where interpretation can go wrong, so next we will look at why genome-browser tracks can mislead.
 
 ### L1-05 — Genome tracks can mislead
 
@@ -87,7 +87,7 @@ So the browser view is not the analysis. It is a useful visualization of data af
 
 **Transition**
 
-This leads to the next part of the framework.
+Once we stop trusting the picture alone, the next question is what each enrichment signal is being compared against.
 
 ### L1-06 — Enrichment assays ask: enriched over what?
 
@@ -101,7 +101,7 @@ MACS is a classic example because it made local background central for ChIP-seq 
 
 **Transition**
 
-This leads to the next part of the framework.
+After defining background, we also have to ask what kind of signal shape the assay and target should produce.
 
 ### L1-07 — Peak shape is biological and statistical
 
@@ -115,7 +115,7 @@ The biological consequence is important. If we force a broad regulatory domain i
 
 **Transition**
 
-This leads to the next part of the framework.
+With peak shape in mind, ATAC-seq deserves special treatment because its fragments encode more than simple open-versus-closed chromatin.
 
 ### L1-08 — ATAC-seq is accessibility plus fragment structure
 
@@ -129,7 +129,7 @@ At the same time, we should be careful with interpretation. Accessibility is a m
 
 **Transition**
 
-This leads to the next part of the framework.
+Once accessibility is measured, the next temptation is to infer transcription factors, so we need to separate motifs, footprints, and binding.
 
 ### L1-09 — Motifs and footprints are not the same as binding
 
@@ -143,7 +143,7 @@ Methods such as TOBIAS are useful teaching examples because they explicitly mode
 
 **Transition**
 
-This leads to the next part of the framework.
+The same caution about evidence applies when we leave linear tracks and move to three-dimensional contacts.
 
 ### L1-10 — Contact assays measure proximity, not causality
 
@@ -157,7 +157,7 @@ This is why methods such as FitHiC2 and MAPS use distance-aware or assay-aware m
 
 **Transition**
 
-This leads to the next part of the framework.
+Those background issues become even sharper in cancer genomes, where the genome itself is often rearranged or copy-number altered.
 
 ### L1-11 — Cancer genomes make background harder
 
@@ -171,7 +171,7 @@ So in cancer functional genomics, background is not just a technical nuisance. I
 
 **Transition**
 
-This leads to the next part of the framework.
+Because cancer creates so many structured biases, controls are necessary — but we should treat them as models rather than guarantees.
 
 ### L1-12 — Controls help, but they are models
 
@@ -185,7 +185,7 @@ Therefore, when reading a paper, do not ask only whether a control exists. Ask w
 
 **Transition**
 
-This leads to the next part of the framework.
+Even with controls in place, we still need to know whether the experiment was good enough to support interpretation.
 
 ### L1-13 — QC is evidence, not paperwork
 
@@ -199,7 +199,7 @@ The practical message is that QC is not separate from interpretation. A regulato
 
 **Transition**
 
-This leads to the next part of the framework.
+Quality in one library is only the first step; next we ask whether the strongest signals are stable across replicates.
 
 ### L1-14 — Replicates test stability of ranked evidence
 
@@ -215,7 +215,7 @@ Think of this as asking whether the experiment can find the same strongest regio
 
 **Transition**
 
-This leads to the next part of the framework.
+If reproducibility tells us which signals are stable, calibration asks whether the reported confidence scores mean what we think they mean.
 
 ### L1-15 — Significance is not always calibrated
 
@@ -231,7 +231,7 @@ This is also why calibration is a teaching topic, not a technical footnote. In a
 
 **Transition**
 
-This leads to the next part of the framework.
+With calibrated evidence in hand, the next challenge is combining imperfect layers into regulatory annotations.
 
 ### L1-16 — Annotation combines imperfect evidence layers
 
@@ -247,7 +247,7 @@ For a student reading the literature, this is one of the most important habits: 
 
 **Transition**
 
-This leads to the next part of the framework.
+This evidence-layer view also explains why bulk assays remain useful even as single-cell and spatial methods become central.
 
 ### L1-17 — Bulk assays still matter in the single-cell era
 
@@ -261,7 +261,7 @@ So this lecture is foundational. We are not treating bulk assays as old technolo
 
 **Transition**
 
-This leads to the next part of the framework.
+Now we can use the same logic to read cancer case studies more critically.
 
 ### L1-18 — Cancer case studies use the same logic
 
@@ -277,7 +277,7 @@ These examples also show why this module comes early in the course. Later comput
 
 **Transition**
 
-This leads to the next part of the framework.
+Those case studies are powerful, but they also show where overclaiming can enter, so let’s make the boundaries explicit.
 
 ### L1-19 — What not to overclaim
 
@@ -291,7 +291,7 @@ The solution is not to avoid interpretation. The solution is to use graded langu
 
 **Transition**
 
-This leads to the next part of the framework.
+With those cautions in place, we can summarize the framework that Lecture 2 will turn into concrete method choices.
 
 ### L1-20 — Lecture 1 synthesis
 
@@ -307,10 +307,10 @@ Finally, interpret regulatory biology through evidence integration. Peaks, motif
 
 In the next lecture, we will turn this framework into concrete method choices. We will look at families of tools such as MACS, SICER, HMMRATAC, footprinting approaches, CUT peak callers, contact callers, reproducibility analysis, and calibration. The point will not be to memorize tool names, but to see why different assays require different statistical assumptions.
 
-## Audio generation notes
+## Audio synthesis notes
 
 - Preferred voice: lecturer-style, calm, clear, moderately paced.
-- Production target: approximately 90 seconds per slide; regenerate individual slides if duration is far below target or content feels rushed.
+- Production target: approximately 90 seconds per slide; Dr. Liu will synthesize audio separately with the local Qwen3-TTS voice tool.
 - Autoplay pause: 1 second between slides in HTML delivery.
 - Pronunciation notes:
   - ChIP-seq: “chip seek”
@@ -329,5 +329,5 @@ In the next lecture, we will turn this framework into concrete method choices. W
   - cCRE: “candidate cis-regulatory element” or “C C R E” after first definition
   - IDR: “I D R”
   - FRiP: “frip,” fraction of reads in peaks
-- Sections to regenerate:
-  - Regenerate individual slide notes after Dr. Liu adjusts slide pacing or wording.
+- Sections to synthesize:
+  - Synthesize individual slide notes after Dr. Liu approves slide pacing or wording.
