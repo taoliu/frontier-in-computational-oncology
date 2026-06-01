@@ -7,9 +7,11 @@ Deep Research intake
   → source validation
   → lecture plan
   → slide outline / figure plan
+  → text-only slide content
   → speaker scripts
   → audio notes / generated audio
-  → assets and exports
+  → HTML slide manifest
+  → HTML lecture export
 ```
 
 ## Principles
@@ -86,15 +88,26 @@ Gate:
 - Technical claims remain source-traceable.
 - Pronunciation notes are captured for audio generation.
 
-### 6. Audio and exports
+### 6. Audio
 
 Outputs:
 - `06-audio/week-XX-topic/audio-manifest.md`
-- `08-exports/week-XX-topic/`
 
 Gate:
 - Regeneration notes exist for any audio segments.
-- Exported slide/script versions are recorded.
+- Audio segments follow slide IDs.
+- Default delivery uses one MP3 per slide unless a later step requires finer timing.
+
+### 7. HTML slide/audio delivery
+
+Outputs:
+- `04-slides/week-XX-topic/html-manifest/lecture-XX.json`
+- `08-exports/week-XX-topic/html/lecture-XX/index.html`
+
+Gate:
+- HTML player supports slide navigation, step-by-step reveal, matching slide audio, transcript/source panels, and local browser playback.
+- Export records which slide text, script, audio, and asset versions were used.
+- Visuals remain placeholders unless generated/approved assets are explicitly available.
 
 ## Week 02 pilot
 
@@ -105,3 +118,4 @@ Use Week 02 Functional Genomics as the pilot module before scaling to the remain
 - Whether the lecture-plan template is detailed enough for slide generation.
 - Whether figure/asset manifest fields catch provenance and copyright risks early.
 - How much script detail is needed before audio generation.
+- Whether the HTML slide/audio player can deliver slide-by-slide content with synchronized audio comfortably.

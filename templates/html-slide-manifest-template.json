@@ -1,0 +1,23 @@
+{
+  "module": "Week XX — Module Title",
+  "lecture": "Lecture X — Title",
+  "sourceSlideText": "04-slides/week-XX-topic/slide-text.md",
+  "sourceScript": "05-scripts/week-XX-topic/lecture-XX-script.md",
+  "audioManifest": "06-audio/week-XX-topic/audio-manifest.md",
+  "slides": [
+    {
+      "id": "L1-01",
+      "title": "Slide title",
+      "steps": [
+        { "type": "bullet", "text": "First reveal" }
+      ],
+      "visual": {
+        "type": "placeholder",
+        "description": "Describe intended visual"
+      },
+      "audio": "06-audio/week-XX-topic/lecture-01/weekXX_lecture01_L1-01.mp3",
+      "transcript": "Speaker transcript or pointer to script section",
+      "sources": ["S001"]
+    }
+  ]
+}
