@@ -355,5 +355,14 @@
         "S001-S015"
       ]
     }
-  ]
+  ],
+  "deliveryTarget": {
+    "targetLectureMinutes": 30,
+    "targetSlideCount": 20,
+    "targetSecondsPerSlide": 90,
+    "currentAudioSeconds": 639.816,
+    "currentAudioMinutesApprox": "10:40",
+    "note": "Current 12-slide export is a concise pilot; expand to about 20 slides and lengthen narration toward ~1.5 minutes per slide for a 30-minute lecture."
+  },
+  "interSlidePauseMs": 1000
 }

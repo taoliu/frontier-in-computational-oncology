@@ -138,3 +138,16 @@ As of 2026-05-31, the only accepted generated audio clips are the Week 02 Lectur
 - `06-audio/week-02-functional-genomics/lecture-01/week02_lecture01_L1-03.mp3`
 
 No other lecture audio has been generated yet. The first HTML delivery pilot should therefore use these three clips and treat all later slide audio as pending.
+
+
+## Lecture timing target
+
+Dr. Liu's revised delivery target for narrated HTML lectures:
+
+- Aim for ~30 minutes per lecture.
+- Use roughly 20 slides per lecture.
+- Target average narration length: ~1.5 minutes per slide.
+- Continuous autoplay should include a short technical pause of about 1 second between slides.
+- This 1-second pause is distinct from planned instructional pauses, discussion prompts, or activities.
+
+Implication for Week 02 Lecture 1: the current 12-slide, ~10:40 export is a successful technical/content pilot, but it is too short for the intended final lecture. Next content pass should expand the lecture to about 20 slides and lengthen speaker notes per slide.

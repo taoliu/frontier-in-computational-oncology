@@ -2,6 +2,7 @@
   const deck = window.LECTURE_DECK;
   let slideIndex = 0;
   let continuous = false;
+  const interSlidePauseMs = Number(deck.interSlidePauseMs ?? 1000);
 
   const el = {
     module: document.querySelector('[data-module]'),
@@ -71,7 +72,9 @@
   el.replay.addEventListener('click', replayAudio);
   el.play.addEventListener('click', toggleContinuous);
   el.audio.addEventListener('ended', () => {
-    if (continuous) nextSlide({ keepContinuous: true });
+    if (continuous) {
+      window.setTimeout(() => nextSlide({ keepContinuous: true }), interSlidePauseMs);
+    }
   });
   document.addEventListener('keydown', e => {
     if (e.key === 'ArrowRight' || e.key === ' ') { e.preventDefault(); nextSlide(); }
