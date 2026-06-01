@@ -325,7 +325,7 @@ In the next lecture, we will move from methods to applications. We will use publ
   - SEACR: “seeker”
   - GoPeaks: “go peaks”
   - TOBIAS: “toe-BYE-us”
-  - H3K27ac: “H three K twenty-seven A C”
+  - H3K27ac: “H three K twenty-seven acetylation”
   - IDR: “I D R”
   - FRiP: “frip,” fraction of reads in peaks
 - Sections to regenerate:
