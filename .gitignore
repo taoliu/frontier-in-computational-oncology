@@ -18,3 +18,4 @@ __pycache__/
 
 # Keep folder placeholders
 !.gitkeep
+!08-exports/week-02-functional-genomics/html/lecture-01/assets/audio/*.mp3
