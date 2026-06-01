@@ -10,13 +10,14 @@ Preferred pilot settings:
 - Preferred voice: `cedar`
 - Fallback voice attempted: `onyx`
 - Output format: `mp3`
-- Status: pilot clips generated for Lecture 1 slides 1–3
+- Status: Lecture 1 slides 1–12 generated; slides 1–3 reviewed in pilot
 
 ## Attempt log
 
 | Date | Segment(s) | Model | Voice | Result | Notes |
 |---|---|---|---|---|---|
 | 2026-05-31 | Lecture 1 slides 1–3 | `gpt-4o-mini-tts-2025-12-15` | `cedar` | generated | Generated three MP3 pilot clips after model access was enabled. |
+| 2026-05-31 | Lecture 1 slides 4–12 | `gpt-4o-mini-tts-2025-12-15` | `cedar` | generated | Generated remaining Lecture 1 slide-level MP3 clips and added them to HTML export. |
 | 2026-05-31 | Lecture 1 slides 1–3 | `gpt-4o-mini-tts` | `cedar` | blocked | OpenAI API returned 403: project lacks access to model. |
 | 2026-05-31 | Lecture 1 slides 1–3 | `tts-1` | `onyx` | blocked | OpenAI API returned 403: project lacks access to model. |
 
@@ -27,6 +28,15 @@ Preferred pilot settings:
 | L01-S001 | Lecture 1 slide 1 | `05-scripts/week-02-functional-genomics/lecture-01-script.md` | `06-audio/week-02-functional-genomics/lecture-01/week02_lecture01_L1-01.mp3` | TBD | accepted pilot | Dr. Liu judged pilot audio quality nice; generated with `gpt-4o-mini-tts-2025-12-15`, voice `cedar`. |
 | L01-S002 | Lecture 1 slide 2 | `05-scripts/week-02-functional-genomics/lecture-01-script.md` | `06-audio/week-02-functional-genomics/lecture-01/week02_lecture01_L1-02.mp3` | TBD | accepted pilot | Dr. Liu judged pilot audio quality nice; generated with `gpt-4o-mini-tts-2025-12-15`, voice `cedar`. |
 | L01-S003 | Lecture 1 slide 3 | `05-scripts/week-02-functional-genomics/lecture-01-script.md` | `06-audio/week-02-functional-genomics/lecture-01/week02_lecture01_L1-03.mp3` | TBD | regenerated | Original pilot clip was truncated before the third question; regenerated full slide audio with `gpt-4o-mini-tts-2025-12-15`, voice `cedar`, on 2026-05-31. |
+| L01-S004 | Lecture 1 slide 4 | `05-scripts/week-02-functional-genomics/lecture-01-script.md` | `06-audio/week-02-functional-genomics/lecture-01/week02_lecture01_L1-04.mp3` | TBD | generated | Generated with `gpt-4o-mini-tts-2025-12-15`, voice `cedar`, for full Lecture 1 HTML delivery. |
+| L01-S005 | Lecture 1 slide 5 | `05-scripts/week-02-functional-genomics/lecture-01-script.md` | `06-audio/week-02-functional-genomics/lecture-01/week02_lecture01_L1-05.mp3` | TBD | generated | Generated with `gpt-4o-mini-tts-2025-12-15`, voice `cedar`, for full Lecture 1 HTML delivery. |
+| L01-S006 | Lecture 1 slide 6 | `05-scripts/week-02-functional-genomics/lecture-01-script.md` | `06-audio/week-02-functional-genomics/lecture-01/week02_lecture01_L1-06.mp3` | TBD | generated | Generated with `gpt-4o-mini-tts-2025-12-15`, voice `cedar`, for full Lecture 1 HTML delivery. |
+| L01-S007 | Lecture 1 slide 7 | `05-scripts/week-02-functional-genomics/lecture-01-script.md` | `06-audio/week-02-functional-genomics/lecture-01/week02_lecture01_L1-07.mp3` | TBD | generated | Generated with `gpt-4o-mini-tts-2025-12-15`, voice `cedar`, for full Lecture 1 HTML delivery. |
+| L01-S008 | Lecture 1 slide 8 | `05-scripts/week-02-functional-genomics/lecture-01-script.md` | `06-audio/week-02-functional-genomics/lecture-01/week02_lecture01_L1-08.mp3` | TBD | generated | Generated with `gpt-4o-mini-tts-2025-12-15`, voice `cedar`, for full Lecture 1 HTML delivery. |
+| L01-S009 | Lecture 1 slide 9 | `05-scripts/week-02-functional-genomics/lecture-01-script.md` | `06-audio/week-02-functional-genomics/lecture-01/week02_lecture01_L1-09.mp3` | TBD | generated | Generated with `gpt-4o-mini-tts-2025-12-15`, voice `cedar`, for full Lecture 1 HTML delivery. |
+| L01-S010 | Lecture 1 slide 10 | `05-scripts/week-02-functional-genomics/lecture-01-script.md` | `06-audio/week-02-functional-genomics/lecture-01/week02_lecture01_L1-10.mp3` | TBD | generated | Generated with `gpt-4o-mini-tts-2025-12-15`, voice `cedar`, for full Lecture 1 HTML delivery. |
+| L01-S011 | Lecture 1 slide 11 | `05-scripts/week-02-functional-genomics/lecture-01-script.md` | `06-audio/week-02-functional-genomics/lecture-01/week02_lecture01_L1-11.mp3` | TBD | generated | Generated with `gpt-4o-mini-tts-2025-12-15`, voice `cedar`, for full Lecture 1 HTML delivery. |
+| L01-S012 | Lecture 1 slide 12 | `05-scripts/week-02-functional-genomics/lecture-01-script.md` | `06-audio/week-02-functional-genomics/lecture-01/week02_lecture01_L1-12.mp3` | TBD | generated | Generated with `gpt-4o-mini-tts-2025-12-15`, voice `cedar`, for full Lecture 1 HTML delivery. |
 
 ## TTS instructions for retry
 
