@@ -320,7 +320,7 @@ In the next lecture, we will move from methods to applications. We will use publ
   - HiChIP: “high chip”
   - PLAC-seq: “plack seek”
   - Tn5: “T N five”
-  - HMMRATAC: “H M M R attack”
+  - HMMRATAC: “Hummer attack”
   - SICER: “sigh-ser”
   - SEACR: “seeker”
   - GoPeaks: “go peaks”
