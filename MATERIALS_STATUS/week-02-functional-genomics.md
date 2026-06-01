@@ -21,4 +21,4 @@
 
 ## Next action
 
-- Build an HTML slide/audio pilot for Week 02 Lecture 1 slides 1–3 using the accepted MP3 clips, then continue text pipeline: draft Lecture 2 and Lecture 3 scripts.
+- Build an HTML slide/audio pilot for Week 02 Lecture 1 slides 1–3 using the accepted MP3 clips. Only slides 1–3 currently have accepted audio; all other audio remains pending. Then continue text pipeline: draft Lecture 2 and Lecture 3 scripts.

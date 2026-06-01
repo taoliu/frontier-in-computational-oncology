@@ -127,3 +127,14 @@ Pilot target:
 ```
 
 Start with slides 1–3, using the accepted audio clips, then extend to the full lecture after review.
+
+
+## Current audio availability
+
+As of 2026-05-31, the only accepted generated audio clips are the Week 02 Lecture 1 pilot clips for slides 1–3:
+
+- `06-audio/week-02-functional-genomics/lecture-01/week02_lecture01_L1-01.mp3`
+- `06-audio/week-02-functional-genomics/lecture-01/week02_lecture01_L1-02.mp3`
+- `06-audio/week-02-functional-genomics/lecture-01/week02_lecture01_L1-03.mp3`
+
+No other lecture audio has been generated yet. The first HTML delivery pilot should therefore use these three clips and treat all later slide audio as pending.
