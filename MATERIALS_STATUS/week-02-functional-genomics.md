@@ -15,10 +15,10 @@
 | Lecture plan | `03-lecture-plans/...` | draft | Pre-validation draft exists and should now be revised against validated source IDs. |
 | Slide outline | `04-slides/...` | slide-ready draft | Three 12-slide lecture outlines created with source IDs and visual placeholders. |
 | Speaker scripts | `05-scripts/...` | in progress | Lecture 1 lecturer script drafted; Lectures 2–3 pending. |
-| Audio | `06-audio/...` | lecture 1 generated | Lecture 1 slides 1–12 generated as MP3 clips with `gpt-4o-mini-tts-2025-12-15` / `cedar`; slides 1–3 pilot quality accepted by Dr. Liu. |
+| Audio | `06-audio/...` | lecture 1 production audio ready | 20 regenerated MP3s for the production Lecture 1 export; total audio duration 29:38, roughly 29:57 with autoplay pauses. |
 | Assets | `07-assets/...` | planned | 13 visual slots plus 4 publication-figure placeholders specified. Future visual work should be prompt-first; prompts saved for W02-A001/A002/A003/A005. Existing SVGs are rough templates only. |
 | Exports | `08-exports/...` | pending |  |
 
 ## Next action
 
-- Review the Week 02 Lecture 1 20-slide production text/script. After approval, regenerate all Lecture 1 audio and rebuild the HTML export.
+- Review the regenerated Week 02 Lecture 1 production HTML/audio export, then proceed to Lecture 2 production planning/content.

@@ -67,3 +67,36 @@ Delivery: Natural classroom narration, not an advertisement or audiobook perform
 ## Regeneration note
 
 The local CLI is available at `~/.openclaw/skills/speech/scripts/text_to_speech.py`. Regenerate clips from the Lecture 1 script with the same instructions above if pacing or pronunciation needs revision.
+## Lecture 1 production audio — 20-slide export
+
+- Model: `gpt-4o-mini-tts-2025-12-15`
+- Voice: `cedar`
+- Speed: `0.75`
+- Format: MP3
+- Generated from: `04-slides/week-02-functional-genomics/html-manifest/lecture-01-pilot.json` transcripts
+- HTML export: `08-exports/week-02-functional-genomics/html/lecture-01/`
+- Total audio duration: 1778.3 seconds (29:38); about 1797.3 seconds including 19 one-second autoplay pauses
+
+| Slide | File | Duration |
+|---|---|---:|
+| L1-01 | `lecture-01/week02_lecture01_L1-01.mp3` | 1:35 |
+| L1-02 | `lecture-01/week02_lecture01_L1-02.mp3` | 1:41 |
+| L1-03 | `lecture-01/week02_lecture01_L1-03.mp3` | 1:29 |
+| L1-04 | `lecture-01/week02_lecture01_L1-04.mp3` | 1:26 |
+| L1-05 | `lecture-01/week02_lecture01_L1-05.mp3` | 1:27 |
+| L1-06 | `lecture-01/week02_lecture01_L1-06.mp3` | 1:18 |
+| L1-07 | `lecture-01/week02_lecture01_L1-07.mp3` | 1:20 |
+| L1-08 | `lecture-01/week02_lecture01_L1-08.mp3` | 1:33 |
+| L1-09 | `lecture-01/week02_lecture01_L1-09.mp3` | 1:24 |
+| L1-10 | `lecture-01/week02_lecture01_L1-10.mp3` | 1:25 |
+| L1-11 | `lecture-01/week02_lecture01_L1-11.mp3` | 1:21 |
+| L1-12 | `lecture-01/week02_lecture01_L1-12.mp3` | 1:20 |
+| L1-13 | `lecture-01/week02_lecture01_L1-13.mp3` | 1:23 |
+| L1-14 | `lecture-01/week02_lecture01_L1-14.mp3` | 1:35 |
+| L1-15 | `lecture-01/week02_lecture01_L1-15.mp3` | 1:29 |
+| L1-16 | `lecture-01/week02_lecture01_L1-16.mp3` | 1:42 |
+| L1-17 | `lecture-01/week02_lecture01_L1-17.mp3` | 1:17 |
+| L1-18 | `lecture-01/week02_lecture01_L1-18.mp3` | 1:44 |
+| L1-19 | `lecture-01/week02_lecture01_L1-19.mp3` | 1:32 |
+| L1-20 | `lecture-01/week02_lecture01_L1-20.mp3` | 1:35 |
+
