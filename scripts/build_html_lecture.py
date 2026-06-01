@@ -23,28 +23,16 @@ HTML = """<!doctype html>
     </header>
     <main>
       <section class=\"slide\" data-slide></section>
-      <aside>
-        <div class=\"card\">
-          <h2>Audio</h2>
-          <audio data-audio controls preload=\"metadata\"></audio>
-        </div>
-        <div class=\"card\">
-          <h2>Transcript</h2>
-          <div class=\"transcript\" data-transcript></div>
-        </div>
-        <div class=\"card\">
-          <h2>Sources</h2>
-          <div class=\"sources\" data-sources></div>
-        </div>
-      </aside>
+      <audio data-audio preload=\"metadata\"></audio>
     </main>
     <footer>
       <div class=\"controls\">
         <button class=\"secondary\" data-prev>← Previous slide</button>
         <button data-next>Next slide →</button>
+        <button data-play>Play continuously</button>
         <button class=\"secondary\" data-replay>Replay audio</button>
       </div>
-      <div class=\"meta\">Keyboard: ← / → / Space, R replay</div>
+      <div class=\"meta\">Keyboard: ← / → / Space, P continuous play, R replay</div>
     </footer>
   </div>
   <script>window.LECTURE_DECK = {deck_json};</script>
