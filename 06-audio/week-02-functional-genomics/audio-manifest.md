@@ -33,34 +33,34 @@ Lecture 2 source audio should use the same pattern:
 ## Current status
 
 - Lecture 1 script: `05-scripts/week-02-functional-genomics/lecture-01-script.md`
-- Lecture 1 Qwen3-TTS source audio: pending Dr. Liu generation/upload
+- Lecture 1 Qwen3-TTS source audio: complete; 20 MP3 files committed under `06-audio/week-02-functional-genomics/lecture-01/`
 - Lecture 1 HTML export: `08-exports/week-02-functional-genomics/html/lecture-01/`
-- Existing OpenAI-generated Lecture 1 MP3s, if present locally or in prior exports, are historical pilot/export assets and should be replaced by the Qwen3-TTS files once available.
+- Existing OpenAI-generated Lecture 1 MP3s have been replaced in the source-audio folder by Qwen3-TTS files.
 
 ## Segments
 
 | Segment ID | Lecture | Script file | Expected source audio | Duration | Status | Synthesis notes |
 |---|---|---|---|---|---|---|
-| L01-S001 | Lecture 1 slide 1 | `05-scripts/week-02-functional-genomics/lecture-01-script.md` | `06-audio/week-02-functional-genomics/lecture-01/week02_lecture01_L1-01.mp3` | TBD | pending Qwen3-TTS | Synthesize from approved slide notes/transcript. |
-| L01-S002 | Lecture 1 slide 2 | `05-scripts/week-02-functional-genomics/lecture-01-script.md` | `06-audio/week-02-functional-genomics/lecture-01/week02_lecture01_L1-02.mp3` | TBD | pending Qwen3-TTS | Synthesize from approved slide notes/transcript. |
-| L01-S003 | Lecture 1 slide 3 | `05-scripts/week-02-functional-genomics/lecture-01-script.md` | `06-audio/week-02-functional-genomics/lecture-01/week02_lecture01_L1-03.mp3` | TBD | pending Qwen3-TTS | Synthesize from approved slide notes/transcript. |
-| L01-S004 | Lecture 1 slide 4 | `05-scripts/week-02-functional-genomics/lecture-01-script.md` | `06-audio/week-02-functional-genomics/lecture-01/week02_lecture01_L1-04.mp3` | TBD | pending Qwen3-TTS | Synthesize from approved slide notes/transcript. |
-| L01-S005 | Lecture 1 slide 5 | `05-scripts/week-02-functional-genomics/lecture-01-script.md` | `06-audio/week-02-functional-genomics/lecture-01/week02_lecture01_L1-05.mp3` | TBD | pending Qwen3-TTS | Synthesize from approved slide notes/transcript. |
-| L01-S006 | Lecture 1 slide 6 | `05-scripts/week-02-functional-genomics/lecture-01-script.md` | `06-audio/week-02-functional-genomics/lecture-01/week02_lecture01_L1-06.mp3` | TBD | pending Qwen3-TTS | Synthesize from approved slide notes/transcript. |
-| L01-S007 | Lecture 1 slide 7 | `05-scripts/week-02-functional-genomics/lecture-01-script.md` | `06-audio/week-02-functional-genomics/lecture-01/week02_lecture01_L1-07.mp3` | TBD | pending Qwen3-TTS | Synthesize from approved slide notes/transcript. |
-| L01-S008 | Lecture 1 slide 8 | `05-scripts/week-02-functional-genomics/lecture-01-script.md` | `06-audio/week-02-functional-genomics/lecture-01/week02_lecture01_L1-08.mp3` | TBD | pending Qwen3-TTS | Synthesize from approved slide notes/transcript. |
-| L01-S009 | Lecture 1 slide 9 | `05-scripts/week-02-functional-genomics/lecture-01-script.md` | `06-audio/week-02-functional-genomics/lecture-01/week02_lecture01_L1-09.mp3` | TBD | pending Qwen3-TTS | Synthesize from approved slide notes/transcript. |
-| L01-S010 | Lecture 1 slide 10 | `05-scripts/week-02-functional-genomics/lecture-01-script.md` | `06-audio/week-02-functional-genomics/lecture-01/week02_lecture01_L1-10.mp3` | TBD | pending Qwen3-TTS | Synthesize from approved slide notes/transcript. |
-| L01-S011 | Lecture 1 slide 11 | `05-scripts/week-02-functional-genomics/lecture-01-script.md` | `06-audio/week-02-functional-genomics/lecture-01/week02_lecture01_L1-11.mp3` | TBD | pending Qwen3-TTS | Synthesize from approved slide notes/transcript. |
-| L01-S012 | Lecture 1 slide 12 | `05-scripts/week-02-functional-genomics/lecture-01-script.md` | `06-audio/week-02-functional-genomics/lecture-01/week02_lecture01_L1-12.mp3` | TBD | pending Qwen3-TTS | Synthesize from approved slide notes/transcript. |
-| L01-S013 | Lecture 1 slide 13 | `05-scripts/week-02-functional-genomics/lecture-01-script.md` | `06-audio/week-02-functional-genomics/lecture-01/week02_lecture01_L1-13.mp3` | TBD | pending Qwen3-TTS | Synthesize from approved slide notes/transcript. |
-| L01-S014 | Lecture 1 slide 14 | `05-scripts/week-02-functional-genomics/lecture-01-script.md` | `06-audio/week-02-functional-genomics/lecture-01/week02_lecture01_L1-14.mp3` | TBD | pending Qwen3-TTS | Synthesize from approved slide notes/transcript. |
-| L01-S015 | Lecture 1 slide 15 | `05-scripts/week-02-functional-genomics/lecture-01-script.md` | `06-audio/week-02-functional-genomics/lecture-01/week02_lecture01_L1-15.mp3` | TBD | pending Qwen3-TTS | Synthesize from approved slide notes/transcript. |
-| L01-S016 | Lecture 1 slide 16 | `05-scripts/week-02-functional-genomics/lecture-01-script.md` | `06-audio/week-02-functional-genomics/lecture-01/week02_lecture01_L1-16.mp3` | TBD | pending Qwen3-TTS | Synthesize from approved slide notes/transcript. |
-| L01-S017 | Lecture 1 slide 17 | `05-scripts/week-02-functional-genomics/lecture-01-script.md` | `06-audio/week-02-functional-genomics/lecture-01/week02_lecture01_L1-17.mp3` | TBD | pending Qwen3-TTS | Synthesize from approved slide notes/transcript. |
-| L01-S018 | Lecture 1 slide 18 | `05-scripts/week-02-functional-genomics/lecture-01-script.md` | `06-audio/week-02-functional-genomics/lecture-01/week02_lecture01_L1-18.mp3` | TBD | pending Qwen3-TTS | Synthesize from approved slide notes/transcript. |
-| L01-S019 | Lecture 1 slide 19 | `05-scripts/week-02-functional-genomics/lecture-01-script.md` | `06-audio/week-02-functional-genomics/lecture-01/week02_lecture01_L1-19.mp3` | TBD | pending Qwen3-TTS | Synthesize from approved slide notes/transcript. |
-| L01-S020 | Lecture 1 slide 20 | `05-scripts/week-02-functional-genomics/lecture-01-script.md` | `06-audio/week-02-functional-genomics/lecture-01/week02_lecture01_L1-20.mp3` | TBD | pending Qwen3-TTS | Synthesize from approved slide notes/transcript. |
+| L01-S001 | Lecture 1 slide 1 | `05-scripts/week-02-functional-genomics/lecture-01-script.md` | `06-audio/week-02-functional-genomics/lecture-01/week02_lecture01_L1-01.mp3` | 1:17 | ready Qwen3-TTS | Synthesized locally by Dr. Liu using Qwen3-TTS voice workflow. |
+| L01-S002 | Lecture 1 slide 2 | `05-scripts/week-02-functional-genomics/lecture-01-script.md` | `06-audio/week-02-functional-genomics/lecture-01/week02_lecture01_L1-02.mp3` | 1:22 | ready Qwen3-TTS | Synthesized locally by Dr. Liu using Qwen3-TTS voice workflow. |
+| L01-S003 | Lecture 1 slide 3 | `05-scripts/week-02-functional-genomics/lecture-01-script.md` | `06-audio/week-02-functional-genomics/lecture-01/week02_lecture01_L1-03.mp3` | 1:14 | ready Qwen3-TTS | Synthesized locally by Dr. Liu using Qwen3-TTS voice workflow. |
+| L01-S004 | Lecture 1 slide 4 | `05-scripts/week-02-functional-genomics/lecture-01-script.md` | `06-audio/week-02-functional-genomics/lecture-01/week02_lecture01_L1-04.mp3` | 1:13 | ready Qwen3-TTS | Synthesized locally by Dr. Liu using Qwen3-TTS voice workflow. |
+| L01-S005 | Lecture 1 slide 5 | `05-scripts/week-02-functional-genomics/lecture-01-script.md` | `06-audio/week-02-functional-genomics/lecture-01/week02_lecture01_L1-05.mp3` | 1:14 | ready Qwen3-TTS | Synthesized locally by Dr. Liu using Qwen3-TTS voice workflow. |
+| L01-S006 | Lecture 1 slide 6 | `05-scripts/week-02-functional-genomics/lecture-01-script.md` | `06-audio/week-02-functional-genomics/lecture-01/week02_lecture01_L1-06.mp3` | 1:10 | ready Qwen3-TTS | Synthesized locally by Dr. Liu using Qwen3-TTS voice workflow. |
+| L01-S007 | Lecture 1 slide 7 | `05-scripts/week-02-functional-genomics/lecture-01-script.md` | `06-audio/week-02-functional-genomics/lecture-01/week02_lecture01_L1-07.mp3` | 1:09 | ready Qwen3-TTS | Synthesized locally by Dr. Liu using Qwen3-TTS voice workflow. |
+| L01-S008 | Lecture 1 slide 8 | `05-scripts/week-02-functional-genomics/lecture-01-script.md` | `06-audio/week-02-functional-genomics/lecture-01/week02_lecture01_L1-08.mp3` | 1:21 | ready Qwen3-TTS | Synthesized locally by Dr. Liu using Qwen3-TTS voice workflow. |
+| L01-S009 | Lecture 1 slide 9 | `05-scripts/week-02-functional-genomics/lecture-01-script.md` | `06-audio/week-02-functional-genomics/lecture-01/week02_lecture01_L1-09.mp3` | 1:07 | ready Qwen3-TTS | Synthesized locally by Dr. Liu using Qwen3-TTS voice workflow. |
+| L01-S010 | Lecture 1 slide 10 | `05-scripts/week-02-functional-genomics/lecture-01-script.md` | `06-audio/week-02-functional-genomics/lecture-01/week02_lecture01_L1-10.mp3` | 1:09 | ready Qwen3-TTS | Synthesized locally by Dr. Liu using Qwen3-TTS voice workflow. |
+| L01-S011 | Lecture 1 slide 11 | `05-scripts/week-02-functional-genomics/lecture-01-script.md` | `06-audio/week-02-functional-genomics/lecture-01/week02_lecture01_L1-11.mp3` | 1:08 | ready Qwen3-TTS | Synthesized locally by Dr. Liu using Qwen3-TTS voice workflow. |
+| L01-S012 | Lecture 1 slide 12 | `05-scripts/week-02-functional-genomics/lecture-01-script.md` | `06-audio/week-02-functional-genomics/lecture-01/week02_lecture01_L1-12.mp3` | 1:08 | ready Qwen3-TTS | Synthesized locally by Dr. Liu using Qwen3-TTS voice workflow. |
+| L01-S013 | Lecture 1 slide 13 | `05-scripts/week-02-functional-genomics/lecture-01-script.md` | `06-audio/week-02-functional-genomics/lecture-01/week02_lecture01_L1-13.mp3` | 1:07 | ready Qwen3-TTS | Synthesized locally by Dr. Liu using Qwen3-TTS voice workflow. |
+| L01-S014 | Lecture 1 slide 14 | `05-scripts/week-02-functional-genomics/lecture-01-script.md` | `06-audio/week-02-functional-genomics/lecture-01/week02_lecture01_L1-14.mp3` | 1:21 | ready Qwen3-TTS | Synthesized locally by Dr. Liu using Qwen3-TTS voice workflow. |
+| L01-S015 | Lecture 1 slide 15 | `05-scripts/week-02-functional-genomics/lecture-01-script.md` | `06-audio/week-02-functional-genomics/lecture-01/week02_lecture01_L1-15.mp3` | 1:15 | ready Qwen3-TTS | Synthesized locally by Dr. Liu using Qwen3-TTS voice workflow. |
+| L01-S016 | Lecture 1 slide 16 | `05-scripts/week-02-functional-genomics/lecture-01-script.md` | `06-audio/week-02-functional-genomics/lecture-01/week02_lecture01_L1-16.mp3` | 1:26 | ready Qwen3-TTS | Synthesized locally by Dr. Liu using Qwen3-TTS voice workflow. |
+| L01-S017 | Lecture 1 slide 17 | `05-scripts/week-02-functional-genomics/lecture-01-script.md` | `06-audio/week-02-functional-genomics/lecture-01/week02_lecture01_L1-17.mp3` | 1:07 | ready Qwen3-TTS | Synthesized locally by Dr. Liu using Qwen3-TTS voice workflow. |
+| L01-S018 | Lecture 1 slide 18 | `05-scripts/week-02-functional-genomics/lecture-01-script.md` | `06-audio/week-02-functional-genomics/lecture-01/week02_lecture01_L1-18.mp3` | 1:23 | ready Qwen3-TTS | Synthesized locally by Dr. Liu using Qwen3-TTS voice workflow. |
+| L01-S019 | Lecture 1 slide 19 | `05-scripts/week-02-functional-genomics/lecture-01-script.md` | `06-audio/week-02-functional-genomics/lecture-01/week02_lecture01_L1-19.mp3` | 1:10 | ready Qwen3-TTS | Synthesized locally by Dr. Liu using Qwen3-TTS voice workflow. |
+| L01-S020 | Lecture 1 slide 20 | `05-scripts/week-02-functional-genomics/lecture-01-script.md` | `06-audio/week-02-functional-genomics/lecture-01/week02_lecture01_L1-20.mp3` | 1:40 | ready Qwen3-TTS | Synthesized locally by Dr. Liu using Qwen3-TTS voice workflow. |
 
 ## Pronunciation notes
 
@@ -93,3 +93,34 @@ After Dr. Liu commits the Qwen3-TTS MP3s:
 ## Historical note
 
 On 2026-05-31, an OpenAI TTS pilot/export was generated for Lecture 1. That information is intentionally not treated as the active workflow anymore. The active course voice workflow is Dr. Liu’s local Qwen3-TTS synthesis.
+
+## Lecture 1 Qwen3-TTS audio — 20-slide source set
+
+- Source folder: `06-audio/week-02-functional-genomics/lecture-01/`
+- Format: MP3
+- Synthesized by: Dr. Liu's local Qwen3-TTS voice workflow
+- Total audio duration: 25:01; about 25:20 with 19 one-second autoplay pauses
+- Last updated: 2026-06-01 after replacing the earlier OpenAI TTS pilot/export audio.
+
+| Slide | File | Duration |
+|---|---|---:|
+| L1-01 | `lecture-01/week02_lecture01_L1-01.mp3` | 1:17 |
+| L1-02 | `lecture-01/week02_lecture01_L1-02.mp3` | 1:22 |
+| L1-03 | `lecture-01/week02_lecture01_L1-03.mp3` | 1:14 |
+| L1-04 | `lecture-01/week02_lecture01_L1-04.mp3` | 1:13 |
+| L1-05 | `lecture-01/week02_lecture01_L1-05.mp3` | 1:14 |
+| L1-06 | `lecture-01/week02_lecture01_L1-06.mp3` | 1:10 |
+| L1-07 | `lecture-01/week02_lecture01_L1-07.mp3` | 1:09 |
+| L1-08 | `lecture-01/week02_lecture01_L1-08.mp3` | 1:21 |
+| L1-09 | `lecture-01/week02_lecture01_L1-09.mp3` | 1:07 |
+| L1-10 | `lecture-01/week02_lecture01_L1-10.mp3` | 1:09 |
+| L1-11 | `lecture-01/week02_lecture01_L1-11.mp3` | 1:08 |
+| L1-12 | `lecture-01/week02_lecture01_L1-12.mp3` | 1:08 |
+| L1-13 | `lecture-01/week02_lecture01_L1-13.mp3` | 1:07 |
+| L1-14 | `lecture-01/week02_lecture01_L1-14.mp3` | 1:21 |
+| L1-15 | `lecture-01/week02_lecture01_L1-15.mp3` | 1:15 |
+| L1-16 | `lecture-01/week02_lecture01_L1-16.mp3` | 1:26 |
+| L1-17 | `lecture-01/week02_lecture01_L1-17.mp3` | 1:07 |
+| L1-18 | `lecture-01/week02_lecture01_L1-18.mp3` | 1:23 |
+| L1-19 | `lecture-01/week02_lecture01_L1-19.mp3` | 1:10 |
+| L1-20 | `lecture-01/week02_lecture01_L1-20.mp3` | 1:40 |

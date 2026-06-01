@@ -28,7 +28,7 @@ Teaching material and production workspace for the **Frontier in Computational O
    - Scripts should align with slide IDs and include optional spoken transitions.
 
 7. **Audio**
-   - Store generated audio files and voice-generation notes in `06-audio/`.
+   - Store source audio files and voice-synthesis notes in `06-audio/`; course narration is synthesized locally by Dr. Liu with Qwen3-TTS, not OpenAI TTS.
 
 8. **Assets and exports**
    - Store reusable images, diagrams, reference files, and generated exports in `07-assets/` and `08-exports/`.
