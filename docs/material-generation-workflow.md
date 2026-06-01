@@ -23,6 +23,7 @@ Deep Research intake
 5. **Every figure or asset needs provenance.** Record whether it is recreated, original, generated, adapted, or cited.
 6. **Scripts and audio follow slide IDs.** This keeps later regeneration targeted.
 7. **Keep private source links out of the public repository.** Public files should not include private Google Docs, Telegram attachment IDs, or personal contact details.
+8. **Close every lecture with forward context.** The final slide script of each lecture should end with a short preview of what comes next. If another lecture remains in the same week, preview the next lecture. If it is the final lecture of the week, preview the next module instead.
 
 
 ## Figure policy for public materials

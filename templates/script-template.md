@@ -18,6 +18,14 @@ Speaker notes:
 
 Speaker notes:
 
+### Final slide — Synthesis / transition
+
+Speaker notes:
+
+- End with 1–3 sentences of forward context.
+- If another lecture remains in the same week, preview the next lecture.
+- If this is the last lecture of the week, preview the next module.
+
 ## Audio generation notes
 
 - Preferred voice:

@@ -305,7 +305,7 @@ Third, require quality control and reproducibility before interpretation. Librar
 
 Finally, interpret regulatory biology through evidence integration. Peaks, motifs, histone marks, accessibility, contacts, expression, and perturbations are pieces of a model. They are not proof by themselves.
 
-In Lecture 2, we will apply this framework to concrete method families: MACS, SICER, HMMRATAC, footprinting, CUT peak callers, contact callers, reproducibility, and calibration. The methods differ because the assay objects and assumptions differ.
+In the next lecture, we will turn this framework into concrete method choices. We will look at families of tools such as MACS, SICER, HMMRATAC, footprinting approaches, CUT peak callers, contact callers, reproducibility analysis, and calibration. The point will not be to memorize tool names, but to see why different assays require different statistical assumptions.
 
 ## Audio generation notes
 

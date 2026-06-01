@@ -75,7 +75,8 @@ The local CLI is available at `~/.openclaw/skills/speech/scripts/text_to_speech.
 - Format: MP3
 - Generated from: `04-slides/week-02-functional-genomics/html-manifest/lecture-01-pilot.json` transcripts
 - HTML export: `08-exports/week-02-functional-genomics/html/lecture-01/`
-- Total audio duration: 1778.3 seconds (29:38); about 1797.3 seconds including 19 one-second autoplay pauses
+- Total audio duration: 1792.5 seconds (29:52); about 1811.5 seconds including 19 one-second autoplay pauses
+- Last updated: regenerated L1-20 after adding the next-lecture preview.
 
 | Slide | File | Duration |
 |---|---|---:|
@@ -98,5 +99,5 @@ The local CLI is available at `~/.openclaw/skills/speech/scripts/text_to_speech.
 | L1-17 | `lecture-01/week02_lecture01_L1-17.mp3` | 1:17 |
 | L1-18 | `lecture-01/week02_lecture01_L1-18.mp3` | 1:44 |
 | L1-19 | `lecture-01/week02_lecture01_L1-19.mp3` | 1:32 |
-| L1-20 | `lecture-01/week02_lecture01_L1-20.mp3` | 1:35 |
+| L1-20 | `lecture-01/week02_lecture01_L1-20.mp3` | 1:49 |
 
