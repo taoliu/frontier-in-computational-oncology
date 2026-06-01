@@ -15,7 +15,7 @@
 | Lecture plan | `03-lecture-plans/...` | draft | Pre-validation draft exists and should now be revised against validated source IDs. |
 | Slide outline | `04-slides/...` | slide-ready draft | Three 12-slide lecture outlines created with source IDs and visual placeholders. |
 | Speaker scripts | `05-scripts/...` | in progress | Lecture 1 lecturer script drafted; Lectures 2–3 pending. |
-| Audio | `06-audio/...` | lecture 1 production audio ready | 20 regenerated MP3s for the production Lecture 1 export; total audio duration 29:52, roughly 30:11 with autoplay pauses. |
+| Audio | `06-audio/...` | lecture 1 production audio ready | 20 regenerated MP3s for the production Lecture 1 export; total audio duration 29:49, roughly 30:08 with autoplay pauses. |
 | Assets | `07-assets/...` | planned | 13 visual slots plus 4 publication-figure placeholders specified. Future visual work should be prompt-first; prompts saved for W02-A001/A002/A003/A005. Existing SVGs are rough templates only. |
 | Exports | `08-exports/...` | pending |  |
 

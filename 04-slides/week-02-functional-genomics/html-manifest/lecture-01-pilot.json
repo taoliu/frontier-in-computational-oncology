@@ -597,11 +597,11 @@
     "targetLectureMinutes": 30,
     "targetSlideCount": 20,
     "targetSecondsPerSlide": 90,
-    "currentAudioSeconds": 1792.488,
-    "currentAudioMinutesApprox": "29:52",
-    "note": "Production HTML/audio export generated after transcript review: 20 slides with regenerated MP3 narration at speed 0.75 and 1-second autoplay pause. Last-slide script now previews the next lecture.",
+    "currentAudioSeconds": 1789.152,
+    "currentAudioMinutesApprox": "29:49",
+    "note": "Production HTML/audio export generated after transcript review: 20 slides with regenerated MP3 narration at speed 0.75 and 1-second autoplay pause. L1-20 regenerated with MACS pronounced as “max”.",
     "ttsSpeed": 0.75,
-    "estimatedWithAutoplayPauses": "30:11"
+    "estimatedWithAutoplayPauses": "30:08"
   },
   "interSlidePauseMs": 1000
 }

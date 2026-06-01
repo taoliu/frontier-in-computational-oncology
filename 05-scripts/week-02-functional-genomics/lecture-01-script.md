@@ -320,6 +320,7 @@ In the next lecture, we will turn this framework into concrete method choices. W
   - Hi-C: “high C”
   - HiChIP: “high chip”
   - PLAC-seq: “plack seek”
+  - MACS: “max”
   - Tn5: “T N five”
   - H3K27ac: “H three K twenty-seven A C”
   - H3K27me3: “H three K twenty-seven tri-methylation”

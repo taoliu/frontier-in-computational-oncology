@@ -57,6 +57,7 @@ Delivery: Natural classroom narration, not an advertisement or audiobook perform
 - Hi-C: “high C”
 - HiChIP: “high chip”
 - PLAC-seq: “plack seek”
+- MACS: “max”
 - Tn5: “T N five”
 - H3K27ac: “H three K twenty-seven A C”
 - CTCF: “C T C F”
@@ -75,8 +76,8 @@ The local CLI is available at `~/.openclaw/skills/speech/scripts/text_to_speech.
 - Format: MP3
 - Generated from: `04-slides/week-02-functional-genomics/html-manifest/lecture-01-pilot.json` transcripts
 - HTML export: `08-exports/week-02-functional-genomics/html/lecture-01/`
-- Total audio duration: 1792.5 seconds (29:52); about 1811.5 seconds including 19 one-second autoplay pauses
-- Last updated: regenerated L1-20 after adding the next-lecture preview.
+- Total audio duration: 1789.2 seconds (29:49); about 1808.2 seconds including 19 one-second autoplay pauses
+- Last updated: regenerated L1-20 after adding the next-lecture preview and correcting MACS pronunciation to “max”.
 
 | Slide | File | Duration |
 |---|---|---:|
@@ -99,5 +100,5 @@ The local CLI is available at `~/.openclaw/skills/speech/scripts/text_to_speech.
 | L1-17 | `lecture-01/week02_lecture01_L1-17.mp3` | 1:17 |
 | L1-18 | `lecture-01/week02_lecture01_L1-18.mp3` | 1:44 |
 | L1-19 | `lecture-01/week02_lecture01_L1-19.mp3` | 1:32 |
-| L1-20 | `lecture-01/week02_lecture01_L1-20.mp3` | 1:49 |
+| L1-20 | `lecture-01/week02_lecture01_L1-20.mp3` | 1:46 |
 
