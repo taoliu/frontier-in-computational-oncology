@@ -1,0 +1,563 @@
+{
+  "module": "Week 02 — Functional Genomics in Cancer",
+  "lecture": "Lecture 3 — Application & State of the Field",
+  "sourceSlideText": "04-slides/week-02-functional-genomics/slide-text.md",
+  "sourceScript": "05-scripts/week-02-functional-genomics/lecture-03-script.md",
+  "audioManifest": "06-audio/week-02-functional-genomics/audio-manifest.md",
+  "slides": [
+    {
+      "id": "L3-01",
+      "title": "From methods to cancer insight",
+      "steps": [
+        {
+          "type": "bullet",
+          "text": "Lecture 3 asks how functional genomics changes cancer interpretation"
+        },
+        {
+          "type": "bullet",
+          "text": "Public resources convert many assays into reusable regulatory priors"
+        },
+        {
+          "type": "bullet",
+          "text": "Case studies show regulatory mechanisms missed by mutation-only views"
+        }
+      ],
+      "visual": {
+        "type": "placeholder",
+        "description": "Opening map: methods from Lecture 2 flowing into resources, cancer case studies, and future single-cell/spatial/network modules."
+      },
+      "audio": "../../../06-audio/week-02-functional-genomics/lecture-03/week02_lecture03_L3-01.mp3",
+      "sources": [
+        "Module synthesis",
+        "S008-S012",
+        "S016-S019"
+      ],
+      "transcript": "In Lecture 1, we defined the problem: functional genomics assays are measurement systems, not direct labels. In Lecture 2, we looked at methods that transform those measurements into peaks, domains, footprints, states, and contacts. Now we use that framework to read cancer biology.\n\nThe central question for this lecture is: what changes when regulatory evidence is applied at scale? Public resources can turn thousands of assays into reusable priors. Cohort-scale cancer projects can reveal subtype-specific regulatory programs. Focused case studies can show transcription-factor rewiring, enhancer activation, enhancer hijacking, and three-dimensional enhancer connectomes.\n\nBut the caution from the first two lectures still applies. A resource annotation is not automatically causal biology. A pan-cancer accessibility peak is not automatically a validated enhancer. A contact is not automatically regulation. Our job is to ask what evidence exists, what claim it supports, and what additional evidence would be needed for a stronger mechanistic statement."
+    },
+    {
+      "id": "L3-02",
+      "title": "The application checklist",
+      "steps": [
+        {
+          "type": "bullet",
+          "text": "What resource or cohort produced the regulatory evidence?"
+        },
+        {
+          "type": "bullet",
+          "text": "What assay object and model created the feature?"
+        },
+        {
+          "type": "bullet",
+          "text": "What cancer claim is justified by the evidence?"
+        }
+      ],
+      "visual": {
+        "type": "placeholder",
+        "description": "Three-step checklist card: resource/cohort → assay/model → cancer claim."
+      },
+      "audio": "../../../06-audio/week-02-functional-genomics/lecture-03/week02_lecture03_L3-02.mp3",
+      "sources": [
+        "S008-S012"
+      ],
+      "transcript": "For application papers, I want students to use three questions. First, what resource or cohort produced the regulatory evidence? A public atlas, a cancer cohort, a curated database, and a focused experiment each have different strengths and weaknesses.\n\nSecond, what assay object and model created the feature? Was the feature a ChIP-seq peak, an ATAC-seq accessible region, a cCRE label, a super-enhancer cluster, or a HiChIP contact? Each one carries different assumptions from the previous lecture.\n\nThird, what cancer claim is justified by the evidence? Some claims are descriptive: this tumor subtype has a distinct accessibility profile. Some are mechanistic hypotheses: this transcription factor may drive a state. Some are stronger causal claims: perturbing this enhancer changes oncogene expression or phenotype. The language should match the evidence level.\n\nThis checklist is deliberately repetitive. In cancer genomics, it is easy to get impressed by a colorful browser plot or a large cohort heatmap. The checklist slows us down and asks whether the biological claim is actually supported."
+    },
+    {
+      "id": "L3-03",
+      "title": "Public atlases are reusable priors",
+      "steps": [
+        {
+          "type": "bullet",
+          "text": "ENCODE and related resources organize functional elements across biosamples"
+        },
+        {
+          "type": "bullet",
+          "text": "cCREs summarize candidate regulatory evidence, not validated causal function"
+        },
+        {
+          "type": "bullet",
+          "text": "Atlases help interpret new cancer datasets, but context still matters"
+        }
+      ],
+      "visual": {
+        "type": "placeholder",
+        "description": "Regulatory atlas schematic: many assays and biosamples feeding a reusable candidate-element registry."
+      },
+      "audio": "../../../06-audio/week-02-functional-genomics/lecture-03/week02_lecture03_L3-03.mp3",
+      "sources": [
+        "S008"
+      ],
+      "transcript": "Public regulatory atlases are one of the major achievements of functional genomics. ENCODE and related projects organized many assays across many biosamples so that individual experiments can be interpreted in a broader regulatory context. Instead of treating each new cancer dataset as isolated, we can compare it with known chromatin states, candidate promoters, enhancers, insulators, and other regulatory evidence.\n\nThe key phrase is reusable prior. A public atlas can tell us that a genomic region has evidence of regulatory activity in some biosamples. It can suggest whether a region looks promoter-like, enhancer-like, CTCF-associated, or accessible. That is extremely useful for prioritization and interpretation.\n\nBut a prior is not a final answer. A candidate cis-regulatory element is candidate evidence. It does not mean the element is active in every tumor, regulates the nearest gene, or is required for a phenotype. Public atlases help us ask better questions, but they do not remove the need to inspect cancer-specific data."
+    },
+    {
+      "id": "L3-04",
+      "title": "SCREEN and cCRE language",
+      "steps": [
+        {
+          "type": "bullet",
+          "text": "SCREEN exposes candidate cis-regulatory elements for search and reuse"
+        },
+        {
+          "type": "bullet",
+          "text": "Labels reflect evidence combinations such as accessibility and histone marks"
+        },
+        {
+          "type": "bullet",
+          "text": "The word candidate should stay visible in interpretation"
+        }
+      ],
+      "visual": {
+        "type": "placeholder",
+        "description": "Browser-style cCRE card showing accessibility, enhancer-like mark, promoter-like mark, and candidate label."
+      },
+      "audio": "../../../06-audio/week-02-functional-genomics/lecture-03/week02_lecture03_L3-04.mp3",
+      "sources": [
+        "S008"
+      ],
+      "transcript": "SCREEN and the candidate cis-regulatory element registry make regulatory annotations searchable and reusable. For teaching, this is a very good example of evidence aggregation. A cCRE label is built from combinations of signals, such as accessibility, promoter-associated marks, enhancer-associated marks, and CTCF-related evidence.\n\nThe benefit is standardization. Instead of every paper inventing a different label for candidate regulatory regions, the registry gives a shared vocabulary. Students can look up a locus and ask what evidence exists in which biosamples.\n\nThe danger is over-reading the label. The word candidate should stay visible. Candidate enhancer-like signature is not the same as perturbation-validated enhancer. A cCRE near a cancer gene is not automatically the causal regulatory element for that gene. The label is an evidence summary, not a replacement for biological validation.\n\nThis is the same evidence-language discipline from Lecture 1. The stronger the claim, the more layers we need: cancer-specific activity, target-gene evidence, contact or expression support, and ideally perturbation."
+    },
+    {
+      "id": "L3-05",
+      "title": "Cistrome turns public data into hypotheses",
+      "steps": [
+        {
+          "type": "bullet",
+          "text": "Cistrome resources collect and process public chromatin datasets"
+        },
+        {
+          "type": "bullet",
+          "text": "Cistrome Cancer links regulatory profiles to cancer questions"
+        },
+        {
+          "type": "bullet",
+          "text": "Reuse is powerful when metadata, QC, and biological context are checked"
+        }
+      ],
+      "visual": {
+        "type": "placeholder",
+        "description": "Resource workflow: public ChIP-seq/ATAC-seq/DNase-seq → curated database → cancer hypothesis."
+      },
+      "audio": "../../../06-audio/week-02-functional-genomics/lecture-03/week02_lecture03_L3-05.mp3",
+      "sources": [
+        "S009"
+      ],
+      "transcript": "Cistrome resources show another kind of application. Instead of only defining regulatory elements, they organize public chromatin datasets — ChIP-seq, ATAC-seq, DNase-seq, and related assays — so researchers can reuse them for regulatory hypotheses. Cistrome Cancer then connects this regulatory-data reuse more directly to cancer questions.\n\nThis is powerful because many cancer projects do not have the budget or time to profile every transcription factor, histone mark, or cell state from scratch. Public data can suggest which transcription factors may be active, whether a candidate enhancer has supporting evidence in related samples, or whether a regulatory program appears across datasets.\n\nBut reuse is only as good as the metadata and quality control. Was the biosample relevant? Was the antibody specific? Was the assay processed consistently? Does the cancer context match the question? Public data are not magic background knowledge. They are experiments with provenance, bias, and uncertainty.\n\nUsed carefully, Cistrome-style resources turn scattered experiments into hypothesis engines. Used carelessly, they can turn mismatched public tracks into misleading stories."
+    },
+    {
+      "id": "L3-06",
+      "title": "Resource use is not shortcut biology",
+      "steps": [
+        {
+          "type": "bullet",
+          "text": "Public tracks provide priors, not automatic answers"
+        },
+        {
+          "type": "bullet",
+          "text": "Biosample match, antibody/assay quality, and processing choices affect interpretation"
+        },
+        {
+          "type": "bullet",
+          "text": "Good reuse asks whether the prior fits the cancer context"
+        }
+      ],
+      "visual": {
+        "type": "placeholder",
+        "description": "Decision tree for using a public regulatory track: match, quality, evidence type, context."
+      },
+      "audio": "../../../06-audio/week-02-functional-genomics/lecture-03/week02_lecture03_L3-06.mp3",
+      "sources": [
+        "S007-S009",
+        "S014"
+      ],
+      "transcript": "Public resources are incredibly useful, but they are not shortcut biology. A common mistake is to find a track that supports a preferred story and treat it as confirmation. That is not enough. We need to ask whether the track is from the right cell type, the right disease context, the right assay quality, and the right processing logic.\n\nFor example, an enhancer mark in an unrelated cell line may suggest a region is capable of regulatory activity, but it does not prove activity in a patient tumor. A TF ChIP-seq peak from one model system may suggest a possible binding site, but it does not prove occupancy in another cancer state. A cCRE label may help prioritize a region, but it does not prove target-gene regulation.\n\nThe best use of resources is as context. They help nominate candidates, compare evidence, and design follow-up. They are strongest when combined with cancer-specific data from the study itself.\n\nThis resource discipline will matter in every case study that follows."
+    },
+    {
+      "id": "L3-07",
+      "title": "Pan-cancer ATAC-seq maps regulatory state",
+      "steps": [
+        {
+          "type": "bullet",
+          "text": "TCGA ATAC-seq profiled chromatin accessibility across primary tumors"
+        },
+        {
+          "type": "bullet",
+          "text": "Accessibility patterns reveal tumor-type and subtype regulatory programs"
+        },
+        {
+          "type": "bullet",
+          "text": "Noncoding regulatory features can become cohort-level biological variables"
+        }
+      ],
+      "visual": {
+        "type": "placeholder",
+        "description": "Cohort schematic: many tumor samples → ATAC peak matrix → cancer-type/subtype regulatory map."
+      },
+      "audio": "../../../06-audio/week-02-functional-genomics/lecture-03/week02_lecture03_L3-07.mp3",
+      "sources": [
+        "S011"
+      ],
+      "transcript": "The TCGA pan-cancer ATAC-seq study is a good example of moving from assay to cancer state. Instead of profiling a single locus or cell line, it measured chromatin accessibility across hundreds of primary tumors from many cancer types. The output is not just a list of peaks. It is a regulatory matrix across samples.\n\nThat matrix lets us ask questions that mutation calls alone cannot answer. Which accessible elements are shared across tumor types? Which are subtype-specific? Which accessibility patterns correspond to lineage programs, immune or stromal signals, or noncoding regulatory activity? Which transcription-factor motifs are associated with particular cancer states?\n\nThis is where ATAC-seq becomes a cohort-level biological variable. Accessibility is still a measurement, and peaks are still candidates. But across many tumors, patterns of accessibility can reveal regulatory structure that is hard to see from coding mutations alone.\n\nThe study also gives students a template: define candidate regulatory elements, compare them across tumor contexts, connect them to motifs and genes cautiously, and interpret the result as regulatory state evidence."
+    },
+    {
+      "id": "L3-08",
+      "title": "What pan-cancer accessibility adds",
+      "steps": [
+        {
+          "type": "bullet",
+          "text": "Accessibility can highlight active regulatory elements beyond coding mutations"
+        },
+        {
+          "type": "bullet",
+          "text": "Risk loci and noncoding elements can be linked to tumor regulatory programs"
+        },
+        {
+          "type": "bullet",
+          "text": "The output is a map of candidate regulatory activity across cancers"
+        }
+      ],
+      "visual": {
+        "type": "placeholder",
+        "description": "Three-panel schematic: subtype-specific peak, risk-locus accessibility, candidate enhancer near gene."
+      },
+      "audio": "../../../06-audio/week-02-functional-genomics/lecture-03/week02_lecture03_L3-08.mp3",
+      "sources": [
+        "S011"
+      ],
+      "transcript": "Pan-cancer accessibility adds several things. First, it can highlight active regulatory elements in noncoding regions. Many cancer mechanisms involve enhancers, promoters, insulators, and lineage-defining regulatory programs, not only coding mutations.\n\nSecond, accessibility can help interpret risk loci and noncoding associations. If a risk-associated region is accessible in a relevant cancer type or subtype, that gives a plausible regulatory context for follow-up. It still does not prove function, but it makes the hypothesis more concrete.\n\nThird, accessibility can define subtype programs. Tumors with similar mutation profiles may occupy different regulatory states. Conversely, tumors from different tissues may share regulatory programs. This is why cohort-level regulatory maps can change how we think about cancer identity.\n\nThe careful wording is that ATAC-seq maps candidate regulatory activity. It tells us where chromatin is accessible and how that accessibility varies. Turning that into enhancer function, target-gene regulation, or therapeutic vulnerability requires additional layers."
+    },
+    {
+      "id": "L3-09",
+      "title": "AR cistrome rewiring in prostate cancer",
+      "steps": [
+        {
+          "type": "bullet",
+          "text": "The same transcription factor can bind different sites in tumor versus normal context"
+        },
+        {
+          "type": "bullet",
+          "text": "AR binding is extensively reprogrammed during prostate tumorigenesis"
+        },
+        {
+          "type": "bullet",
+          "text": "Cofactors and chromatin context help reshape the regulatory program"
+        }
+      ],
+      "visual": {
+        "type": "placeholder",
+        "description": "Normal versus tumor AR binding map with shifted enhancer usage and cofactor icons."
+      },
+      "audio": "../../../06-audio/week-02-functional-genomics/lecture-03/week02_lecture03_L3-09.mp3",
+      "sources": [
+        "S016"
+      ],
+      "transcript": "The androgen receptor case in prostate cancer teaches that transcription-factor binding is not fixed by the DNA sequence alone. AR recognizes motifs, but the sites it occupies can change dramatically between normal prostate tissue and tumor contexts. Pomerantz and colleagues showed extensive AR cistrome reprogramming during human prostate tumorigenesis.\n\nThis is a powerful cancer lesson. If we only looked for AR motifs, we would miss the state-specific binding program. The motif may be present in many places, but occupancy depends on chromatin accessibility, cooperating factors, lineage context, and disease state. FOXA1 and HOXB13 are part of the reported reprogramming context in this case.\n\nSo the biological claim is not simply that AR exists or that AR motifs exist. The claim is that the regulatory landscape changes where AR binds, and that this rewiring is connected to prostate tumorigenesis. Functional genomics makes that visible.\n\nThis is also a reminder that TF programs in cancer can change without a simple coding mutation in the transcription factor itself."
+    },
+    {
+      "id": "L3-10",
+      "title": "The lesson from TF rewiring",
+      "steps": [
+        {
+          "type": "bullet",
+          "text": "TF activity is not determined by motif sequence alone"
+        },
+        {
+          "type": "bullet",
+          "text": "Cancer state can redirect binding and target genes"
+        },
+        {
+          "type": "bullet",
+          "text": "Cistrome rewiring turns regulatory data into a mechanism hypothesis"
+        }
+      ],
+      "visual": {
+        "type": "placeholder",
+        "description": "Motif availability plus chromatin context plus cofactors leading to tumor-specific TF targets."
+      },
+      "audio": "../../../06-audio/week-02-functional-genomics/lecture-03/week02_lecture03_L3-10.mp3",
+      "sources": [
+        "S005",
+        "S016"
+      ],
+      "transcript": "The general lesson is that transcription-factor activity is contextual. Motif sequence is necessary for many binding events, but it is not sufficient. Chromatin accessibility, histone state, pioneer factors, cooperating transcription factors, and cancer lineage state all shape which motifs become occupied.\n\nThis is why cistrome analysis is so useful. A cistrome is the genome-wide binding landscape of a factor. When that landscape changes between normal and cancer states, it can suggest a mechanism for altered gene regulation.\n\nBut again, the claim should be graded. A tumor-specific TF peak suggests altered occupancy. Nearby expression changes suggest possible target genes. Perturbation of the factor, enhancer, or target gene is needed for stronger causal statements.\n\nFor students, the practical habit is to avoid saying “the motif is enriched, therefore the factor drives the program.” A better statement is: motif enrichment and chromatin evidence nominate a TF program; binding and perturbation evidence determine how strong that nomination is."
+    },
+    {
+      "id": "L3-11",
+      "title": "Super-enhancers as regulatory identity markers",
+      "steps": [
+        {
+          "type": "bullet",
+          "text": "Clusters of enhancer activity can mark core transcriptional circuitry"
+        },
+        {
+          "type": "bullet",
+          "text": "Neuroblastoma studies revealed super-enhancer-associated cell states"
+        },
+        {
+          "type": "bullet",
+          "text": "Regulatory identity can explain tumor heterogeneity beyond mutation lists"
+        }
+      ],
+      "visual": {
+        "type": "placeholder",
+        "description": "Super-enhancer landscape separating two neuroblastoma regulatory states."
+      },
+      "audio": "../../../06-audio/week-02-functional-genomics/lecture-03/week02_lecture03_L3-11.mp3",
+      "sources": [
+        "S017"
+      ],
+      "transcript": "Super-enhancer studies ask a different but related question: where are the strongest clusters of enhancer-associated activity, and what genes or transcriptional circuits do they mark? In neuroblastoma, studies of super-enhancer-associated states helped define regulatory identities and heterogeneity.\n\nThis matters because tumors are not only collections of mutations. They also occupy cell states. In neuroblastoma, regulatory circuitry and enhancer landscapes can distinguish state-like programs that help explain heterogeneity. Those states may be connected to lineage identity, differentiation, and tumor behavior.\n\nFor teaching, the point is not to memorize one super-enhancer definition. The point is that enhancer intensity and clustering can act as a window into regulatory identity. If a cancer cell state depends on a particular transcriptional circuitry, the enhancer landscape can help reveal it.\n\nThis is a strong example of functional genomics as state biology rather than just locus annotation."
+    },
+    {
+      "id": "L3-12",
+      "title": "Interpreting super-enhancer claims carefully",
+      "steps": [
+        {
+          "type": "bullet",
+          "text": "Super-enhancer calls depend on ranking and stitching choices"
+        },
+        {
+          "type": "bullet",
+          "text": "A strong enhancer cluster suggests regulatory importance, not automatic dependency"
+        },
+        {
+          "type": "bullet",
+          "text": "Perturbation or convergent evidence strengthens the claim"
+        }
+      ],
+      "visual": {
+        "type": "placeholder",
+        "description": "Ranked enhancer signal curve with cutoff, stitched cluster, and validation evidence ladder."
+      },
+      "audio": "../../../06-audio/week-02-functional-genomics/lecture-03/week02_lecture03_L3-12.mp3",
+      "sources": [
+        "S017",
+        "S015"
+      ],
+      "transcript": "Super-enhancer language can become overconfident. These calls often depend on ranking enhancer-associated signals and sometimes stitching nearby enhancers into larger clusters. Choices about ranking, stitching distance, signal type, and cutoff can affect which regions are labeled.\n\nTherefore, a super-enhancer call suggests a strong enhancer-associated regulatory region, but it is not automatically proof of dependency. It is better to treat it as prioritized regulatory evidence. The claim becomes stronger when the region is linked to expression of a relevant gene, conserved across models or tumors, associated with a coherent transcriptional program, or supported by perturbation.\n\nThis is another place where graded language helps. We can say super-enhancer-associated state, candidate dependency, or regulatory circuitry hypothesis. We should reserve stronger causal language for experiments that actually test the dependency.\n\nIn cancer biology, this caution matters because super-enhancer stories can quickly become therapeutic vulnerability stories. That step requires evidence beyond ranking a signal track."
+    },
+    {
+      "id": "L3-13",
+      "title": "Enhancer hijacking: structural variation meets regulation",
+      "steps": [
+        {
+          "type": "bullet",
+          "text": "Structural variants can reposition enhancers near oncogenes"
+        },
+        {
+          "type": "bullet",
+          "text": "Medulloblastoma enhancer hijacking activates GFI1-family oncogenes"
+        },
+        {
+          "type": "bullet",
+          "text": "The mechanism requires integrating SV, enhancer evidence, and expression"
+        }
+      ],
+      "visual": {
+        "type": "placeholder",
+        "description": "Before/after genome cartoon: rearrangement moves active enhancer beside oncogene."
+      },
+      "audio": "../../../06-audio/week-02-functional-genomics/lecture-03/week02_lecture03_L3-13.mp3",
+      "sources": [
+        "S018"
+      ],
+      "transcript": "Enhancer hijacking is one of the clearest examples of why cancer genomics needs regulatory interpretation. A structural variant can move an enhancer or super-enhancer into a new neighborhood, placing it near an oncogene. The coding sequence of the oncogene may be unchanged, but its regulation changes.\n\nIn medulloblastoma, enhancer hijacking was shown to activate GFI1-family oncogenes. The story requires integration. Structural variation shows that the genome has been rearranged. Regulatory evidence shows that strong enhancer activity exists in the new neighborhood. Expression evidence shows that the oncogene is activated.\n\nThis is not just a peak-calling result. It is a mechanism assembled from multiple evidence layers. The enhancer is important because of where it is, what activity it carries, and what gene expression pattern follows the rearrangement.\n\nEnhancer hijacking is therefore a bridge between cancer genome structure and functional regulatory state."
+    },
+    {
+      "id": "L3-14",
+      "title": "BCL11B enhancer hijacking in leukemia",
+      "steps": [
+        {
+          "type": "bullet",
+          "text": "Enhancer hijacking can activate oncogenes in lineage-ambiguous leukemia"
+        },
+        {
+          "type": "bullet",
+          "text": "BCL11B deregulation illustrates allele-specific regulatory activation"
+        },
+        {
+          "type": "bullet",
+          "text": "This is a regulatory mechanism, not a coding-mutation mechanism"
+        }
+      ],
+      "visual": {
+        "type": "placeholder",
+        "description": "Leukemia example schematic: rearranged enhancer neighborhood causing BCL11B activation."
+      },
+      "audio": "../../../06-audio/week-02-functional-genomics/lecture-03/week02_lecture03_L3-14.mp3",
+      "sources": [
+        "S019"
+      ],
+      "transcript": "The BCL11B enhancer-hijacking example in lineage-ambiguous leukemia extends the same principle. Here, enhancer hijacking drives oncogenic BCL11B expression through aberrant regulatory activation. The key point is that the oncogenic event is regulatory.\n\nThis is important for computational oncology because a mutation-centric view can miss the mechanism. If the coding region is not the main altered object, we need to inspect genome structure, chromatin activity, allele-specific regulation, and expression. Functional genomics provides the evidence layers that make the mechanism visible.\n\nThis example also reinforces the difference between proximity and regulation. A rearrangement may place elements near each other, but the biological story becomes convincing when regulatory activity and gene expression move together, and stronger still when perturbation or allele-specific evidence supports the model.\n\nSo enhancer hijacking is not just a dramatic genome cartoon. It is an evidence-integration problem."
+    },
+    {
+      "id": "L3-15",
+      "title": "3D genome maps add enhancer-connectome evidence",
+      "steps": [
+        {
+          "type": "bullet",
+          "text": "H3K27ac HiChIP can connect active enhancers with promoter neighborhoods"
+        },
+        {
+          "type": "bullet",
+          "text": "Primary-cancer 3D maps reveal static, gained, and rewired enhancer usage"
+        },
+        {
+          "type": "bullet",
+          "text": "Contacts add linkage evidence, not automatic causal proof"
+        }
+      ],
+      "visual": {
+        "type": "placeholder",
+        "description": "Enhancer-connectome diagram: active enhancer loops to promoter across cancer contexts."
+      },
+      "audio": "../../../06-audio/week-02-functional-genomics/lecture-03/week02_lecture03_L3-15.mp3",
+      "sources": [
+        "S012",
+        "S010"
+      ],
+      "transcript": "Three-dimensional genome maps add another layer to cancer regulatory interpretation. H3K27ac HiChIP and related assays can profile contacts involving active enhancer-associated chromatin. Recent primary-cancer 3D genome maps use this logic to study enhancer connectomes across tumor samples.\n\nThe value is that enhancer-promoter linkage becomes more direct than nearest-gene annotation. A distal enhancer may contact a promoter that is not the closest gene. A cancer state may gain or rewire enhancer usage at oncogenes. These patterns can suggest regulatory mechanisms that one-dimensional peak tracks alone might miss.\n\nBut the caution from Lecture 1 still applies. A contact is linkage evidence, not automatic causality. The strongest interpretation combines chromatin activity, contact evidence, gene expression, cancer context, and ideally perturbation.\n\nThe application lesson is that 3D data help move from “there is a candidate enhancer” to “this enhancer is spatially linked to this promoter in this cancer context.” That is a stronger statement, but still not final proof by itself."
+    },
+    {
+      "id": "L3-16",
+      "title": "From peaks to enhancer connectomes",
+      "steps": [
+        {
+          "type": "bullet",
+          "text": "Accessibility and histone marks identify candidate regulatory elements"
+        },
+        {
+          "type": "bullet",
+          "text": "Contact maps suggest which promoters they may influence"
+        },
+        {
+          "type": "bullet",
+          "text": "Expression and perturbation decide how strong the target-gene claim can be"
+        }
+      ],
+      "visual": {
+        "type": "placeholder",
+        "description": "Evidence chain: peak/mark → contact → expression link → perturbation-supported target."
+      },
+      "audio": "../../../06-audio/week-02-functional-genomics/lecture-03/week02_lecture03_L3-16.mp3",
+      "sources": [
+        "S010",
+        "S012"
+      ],
+      "transcript": "A practical evidence chain looks like this. Accessibility or histone marks identify candidate regulatory elements. Motifs or TF binding suggest possible regulators. Contact maps suggest which promoters those elements may physically interact with. Expression data ask whether the candidate target gene changes in the relevant context. Perturbation asks whether disrupting the element, regulator, or contact changes the outcome.\n\nEach layer answers a different question. Peak or mark: where is candidate activity? Motif or binding: which regulatory proteins may be involved? Contact: which promoter is spatially linked? Expression: which genes are associated? Perturbation: what is causal?\n\nThis chain is a useful way to write and critique papers. If a paper claims an enhancer regulates an oncogene, ask which parts of the chain are present and which are inferred. Missing layers do not make the study worthless, but they should weaken the language.\n\nGood computational oncology is often the art of making this evidence chain explicit."
+    },
+    {
+      "id": "L3-17",
+      "title": "Bulk functional genomics still has limits",
+      "steps": [
+        {
+          "type": "bullet",
+          "text": "Bulk profiles mix tumor, stromal, immune, and lineage states"
+        },
+        {
+          "type": "bullet",
+          "text": "Rare subclones and spatial niches can be averaged away"
+        },
+        {
+          "type": "bullet",
+          "text": "Regulatory maps often identify candidates, not complete causal circuits"
+        }
+      ],
+      "visual": {
+        "type": "placeholder",
+        "description": "Bulk signal decomposition cartoon showing tumor, immune, stromal, and rare-state contributions."
+      },
+      "audio": "../../../06-audio/week-02-functional-genomics/lecture-03/week02_lecture03_L3-17.mp3",
+      "sources": [
+        "S011",
+        "S012"
+      ],
+      "transcript": "Bulk functional genomics remains valuable, but it has limits. A tumor sample can contain cancer cells, stromal cells, immune cells, normal tissue contamination, and multiple tumor subclones. A bulk ATAC-seq or ChIP-seq profile averages across that mixture.\n\nSometimes the average is exactly what we want, especially for cohort-scale signatures. But sometimes it hides the biology. A rare resistant subclone may be diluted. A spatial niche may disappear in the average. An immune-cell signal may be mistaken for tumor-intrinsic regulation. A subtype-associated pattern may reflect sample composition rather than a mechanism inside cancer cells.\n\nThis does not invalidate bulk studies. It tells us how to interpret them. Bulk assays are strong for deep coverage, mature QC, and cohort-scale priors. They are weaker when the question requires cell-state resolution, spatial location, or causal networks inside heterogeneous tissue.\n\nThose limitations set up the next modules in the course."
+    },
+    {
+      "id": "L3-18",
+      "title": "Natural handoff to single-cell and spatial modules",
+      "steps": [
+        {
+          "type": "bullet",
+          "text": "Single-cell assays separate regulatory programs across cell states"
+        },
+        {
+          "type": "bullet",
+          "text": "Spatial methods ask where those states and signals occur in tissue"
+        },
+        {
+          "type": "bullet",
+          "text": "Network models ask how regulatory elements and genes form systems"
+        }
+      ],
+      "visual": {
+        "type": "placeholder",
+        "description": "Module bridge: bulk regulatory map → single-cell resolution → spatial context → network/causal model."
+      },
+      "audio": "../../../06-audio/week-02-functional-genomics/lecture-03/week02_lecture03_L3-18.mp3",
+      "sources": [
+        "Module synthesis",
+        "S011",
+        "S012"
+      ],
+      "transcript": "The handoff from Week 2 is natural. Single-cell chromatin and transcriptomic assays ask which cell states carry a regulatory program. They help separate tumor cells from immune and stromal cells, and they can reveal rare or transitional states that bulk assays average together.\n\nSpatial methods ask where those states and signals occur in tissue. A regulatory program may matter because it appears at an invasive edge, in a hypoxic niche, near immune cells, or in a treatment-resistant region. Bulk assays usually cannot answer that location question.\n\nNetwork and causal modeling ask how regulatory elements, transcription factors, pathways, and phenotypes connect into systems. Functional genomics provides many of the features and priors for those models, but the models have to represent uncertainty and causality carefully.\n\nSo Week 2 is not isolated. It is the foundation for later modules: understand the assay object, model it carefully, and carry forward evidence with the right strength of language."
+    },
+    {
+      "id": "L3-19",
+      "title": "A reading checklist for cancer papers",
+      "steps": [
+        {
+          "type": "bullet",
+          "text": "Translate each claim back to the assay evidence"
+        },
+        {
+          "type": "bullet",
+          "text": "Separate candidate, linked, active, and validated regulatory elements"
+        },
+        {
+          "type": "bullet",
+          "text": "Ask what would change the authors’ conclusion if removed"
+        }
+      ],
+      "visual": {
+        "type": "placeholder",
+        "description": "Paper-reading checklist with graded claim language: candidate, linked, active, validated."
+      },
+      "audio": "../../../06-audio/week-02-functional-genomics/lecture-03/week02_lecture03_L3-19.mp3",
+      "sources": [
+        "S001-S019"
+      ],
+      "transcript": "When reading a cancer functional-genomics paper, translate every major claim back to the evidence. If the paper says enhancer, ask whether it means accessible region, H3K27ac peak, cCRE, super-enhancer cluster, contact-linked element, or perturbation-validated enhancer.\n\nSeparate candidate, linked, active, and validated. Candidate means there is some regulatory evidence. Linked means there is spatial, expression, or annotation evidence connecting it to a gene. Active means the assay supports activity in the relevant context. Validated means an experiment tested function.\n\nAlso ask what would change the authors’ conclusion if removed. If the key conclusion depends entirely on nearest-gene assignment, that is weaker than a conclusion supported by contacts and expression. If it depends entirely on motif enrichment, that is weaker than binding or perturbation evidence.\n\nThis checklist is not meant to make students cynical. It is meant to make them precise. Precision is what lets functional genomics become real cancer biology rather than decorative genome tracks."
+    },
+    {
+      "id": "L3-20",
+      "title": "Week 2 synthesis",
+      "steps": [
+        {
+          "type": "bullet",
+          "text": "Functional genomics turns molecular readouts into regulatory evidence"
+        },
+        {
+          "type": "bullet",
+          "text": "Cancer applications reveal subtype programs, TF rewiring, enhancer activation, and 3D linkage"
+        },
+        {
+          "type": "bullet",
+          "text": "Strong interpretation requires assay-aware methods, reproducibility, and graded claims"
+        },
+        {
+          "type": "bullet",
+          "text": "Next: higher-resolution regulatory biology in later modules"
+        }
+      ],
+      "visual": {
+        "type": "placeholder",
+        "description": "Final Week 2 synthesis: assay → method → resource/case study → careful cancer mechanism claim."
+      },
+      "audio": "../../../06-audio/week-02-functional-genomics/lecture-03/week02_lecture03_L3-20.mp3",
+      "sources": [
+        "S001-S019"
+      ],
+      "transcript": "The synthesis for Week 2 is that functional genomics turns molecular readouts into regulatory evidence. ChIP-seq, ATAC-seq, CUT assays, and contact assays each measure different objects. Methods transform those objects into peaks, domains, states, footprints, and contacts. Applications use those outputs to interpret cancer regulatory biology.\n\nThe major cancer insights include subtype regulatory programs, transcription-factor cistrome rewiring, super-enhancer-associated identity states, enhancer hijacking, and three-dimensional enhancer linkage. These are mechanisms that mutation lists alone can miss.\n\nBut the evidence language must stay disciplined. A peak is not automatically an enhancer. A motif is not binding. A contact is not regulation. A public annotation is not causal proof. Strong interpretation comes from assay-aware methods, reproducibility, calibration, orthogonal evidence, and graded claims.\n\nThat is the foundation we will carry into the rest of the course. Later modules will add single-cell resolution, spatial tissue context, network modeling, perturbation screens, imaging, clinical informatics, foundation models, and AI agents. The core habit remains the same: know what was measured, know how it was modeled, and say only what the evidence supports."
+    }
+  ]
+}

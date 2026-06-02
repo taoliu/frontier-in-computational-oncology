@@ -6,23 +6,43 @@
   <title>Frontier in Computational Oncology — HTML Lectures</title>
   <style>
     body { margin: 0; font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; background: #f6f3ee; color: #1e293b; }
-    main { max-width: 900px; margin: 0 auto; padding: 4rem 1.5rem; }
+    main { max-width: 980px; margin: 0 auto; padding: 4rem 1.5rem; }
     .card { background: #fffdf8; border: 1px solid #e2e8f0; border-radius: 22px; padding: 2rem; box-shadow: 0 24px 60px rgba(15,23,42,.12); }
     h1 { font-size: clamp(2.3rem, 5vw, 4rem); line-height: 1; margin: 0 0 1rem; }
     p { color: #475569; line-height: 1.55; font-size: 1.1rem; }
-    a { display: inline-block; margin-top: 1rem; background: #2563eb; color: white; text-decoration: none; font-weight: 700; padding: .9rem 1.1rem; border-radius: 999px; }
-    .note { margin-top: 1rem; font-size: .95rem; color: #64748b; }
     .status { display: inline-flex; margin: .25rem 0 1rem; padding: .35rem .7rem; border-radius: 999px; background: #dcfce7; color: #166534; font-weight: 700; font-size: .9rem; }
+    .lectures { display: grid; gap: 1rem; margin-top: 1.5rem; }
+    .lecture { border: 1px solid #e2e8f0; border-radius: 18px; padding: 1rem 1.1rem; background: #ffffff; }
+    .lecture h2 { margin: 0 0 .35rem; font-size: 1.15rem; }
+    .lecture p { margin: .25rem 0; font-size: .98rem; }
+    a { display: inline-block; margin-top: .65rem; background: #2563eb; color: white; text-decoration: none; font-weight: 700; padding: .72rem 1rem; border-radius: 999px; }
+    .note { margin-top: 1rem; font-size: .95rem; color: #64748b; }
   </style>
 </head>
 <body>
   <main>
     <section class="card">
       <h1>Frontier in Computational Oncology</h1>
-      <div class="status">Production HTML lecture available</div>
-      <p>Current public lecture: Week 02 Lecture 1 — Functional Genomics in Cancer. This production export includes 20 full slides, Qwen3-TTS MP3 narration, whole-slide display, continuous playback, and a one-second autoplay pause between slides.</p>
-      <a href="week-02-functional-genomics/html/lecture-01/">Open Week 02 Lecture 1</a>
-      <div class="note">Lecture 1 audio duration: 25:01, or about 25:20 including autoplay pauses. More lectures will be added after source validation, script approval, and local Qwen3-TTS audio synthesis.</div>
+      <div class="status">Week 02 production HTML lectures available</div>
+      <p>Week 02 — Functional Genomics in Cancer now includes three 20-slide HTML lectures with Qwen3-TTS MP3 narration, continuous playback, transcripts, and one-second autoplay pauses between slides.</p>
+      <div class="lectures">
+        <div class="lecture">
+          <h2>Lecture 1 — Background &amp; Problem Definition</h2>
+          <p>Audio duration: 24:46, or about 25:05 including autoplay pauses.</p>
+          <a href="week-02-functional-genomics/html/lecture-01/">Open Lecture 1</a>
+        </div>
+        <div class="lecture">
+          <h2>Lecture 2 — Method Development &amp; Verification</h2>
+          <p>Audio duration: 24:24, or about 24:43 including autoplay pauses.</p>
+          <a href="week-02-functional-genomics/html/lecture-02/">Open Lecture 2</a>
+        </div>
+        <div class="lecture">
+          <h2>Lecture 3 — Application &amp; State of the Field</h2>
+          <p>Audio duration: 24:40, or about 24:59 including autoplay pauses.</p>
+          <a href="week-02-functional-genomics/html/lecture-03/">Open Lecture 3</a>
+        </div>
+      </div>
+      <div class="note">More modules will be added after source validation, script approval, and local Qwen3-TTS audio synthesis.</div>
     </section>
   </main>
 </body>
